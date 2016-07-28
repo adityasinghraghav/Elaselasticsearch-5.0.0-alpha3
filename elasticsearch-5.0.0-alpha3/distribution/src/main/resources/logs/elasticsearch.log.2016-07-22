@@ -1,0 +1,18 @@
+[2016-07-22 09:55:35,141][INFO ][node                     ] [Torgo of Mekka] version[5.0.0-alpha3-SNAPSHOT], pid[1232], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-22 09:55:35,144][INFO ][node                     ] [Torgo of Mekka] initializing ...
+[2016-07-22 09:55:35,169][INFO ][plugins                  ] [Torgo of Mekka] modules [], plugins []
+[2016-07-22 09:55:35,224][INFO ][env                      ] [Torgo of Mekka] using [1] data paths, mounts [[OS (C:)]], net usable_space [79.1gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-22 09:55:35,226][INFO ][env                      ] [Torgo of Mekka] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-22 09:55:44,636][INFO ][node                     ] [Torgo of Mekka] initialized
+[2016-07-22 09:55:44,636][INFO ][node                     ] [Torgo of Mekka] starting ...
+[2016-07-22 09:55:44,866][INFO ][transport                ] [Torgo of Mekka] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-22 09:55:44,894][WARN ][bootstrap                ] [Torgo of Mekka] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-22 09:55:49,163][INFO ][cluster.service          ] [Torgo of Mekka] new_master {Torgo of Mekka}{9eN_dGbyRl2PM9rDXoLSFA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-22 09:55:49,253][INFO ][http                     ] [Torgo of Mekka] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-22 09:55:49,253][INFO ][node                     ] [Torgo of Mekka] started
+[2016-07-22 09:55:49,919][WARN ][gateway                  ] [Torgo of Mekka] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-22 09:55:49,919][INFO ][gateway                  ] [Torgo of Mekka] recovered [1] indices into cluster_state
+[2016-07-22 09:55:50,230][WARN ][gateway                  ] [Torgo of Mekka] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-22 09:55:50,666][WARN ][gateway                  ] [Torgo of Mekka] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-22 09:55:50,791][INFO ][cluster.routing.allocation] [Torgo of Mekka] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-22 09:55:50,793][WARN ][gateway                  ] [Torgo of Mekka] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
