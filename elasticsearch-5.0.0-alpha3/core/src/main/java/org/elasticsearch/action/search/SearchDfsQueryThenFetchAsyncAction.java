@@ -196,8 +196,20 @@ class SearchDfsQueryThenFetchAsyncAction extends AbstractSearchAsyncAction<DfsSe
         threadPool.executor(ThreadPool.Names.SEARCH).execute(new ActionRunnable<SearchResponse>(listener) {
             @Override
             public void doRun() throws IOException {
+
+                boolean value;
+
+                if(request.source() != null)
+                {
+                    value = request.source().odoscope();
+                }
+                else
+                {
+                    value = false;
+                }
+
                 final InternalSearchResponse internalResponse = searchPhaseController.merge(sortedShardList, queryResults,
-                    fetchResults,request.source().odoscope());
+                    fetchResults,value);
                 String scrollId = null;
                 if (request.scroll() != null) {
                     scrollId = TransportSearchHelper.buildScrollId(request.searchType(), firstResults);

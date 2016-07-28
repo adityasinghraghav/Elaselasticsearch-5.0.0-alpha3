@@ -129,8 +129,20 @@ class SearchQueryThenFetchAsyncAction extends AbstractSearchAsyncAction<QuerySea
         threadPool.executor(ThreadPool.Names.SEARCH).execute(new ActionRunnable<SearchResponse>(listener) {
             @Override
             public void doRun() throws IOException {
+
+                boolean value;
+
+                if(request.source() != null)
+                {
+                    value = request.source().odoscope();
+                }
+                else
+                {
+                    value = false;
+                }
+
                 final InternalSearchResponse internalResponse = searchPhaseController.merge(sortedShardList, firstResults,
-                    fetchResults, request.source().odoscope());
+                    fetchResults, value);
 
 
 

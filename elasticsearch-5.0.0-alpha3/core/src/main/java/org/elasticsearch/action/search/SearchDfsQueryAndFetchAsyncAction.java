@@ -119,8 +119,20 @@ class SearchDfsQueryAndFetchAsyncAction extends AbstractSearchAsyncAction<DfsSea
             @Override
             public void doRun() throws IOException {
                 sortedShardList = searchPhaseController.sortDocs(true, queryFetchResults, false);
+
+                boolean value;
+
+                if(request.source() != null)
+                {
+                    value = request.source().odoscope();
+                }
+                else
+                {
+                    value = false;
+                }
+
                 final InternalSearchResponse internalResponse = searchPhaseController.merge(sortedShardList, queryFetchResults,
-                    queryFetchResults, request.source().odoscope());
+                    queryFetchResults, value);
                 String scrollId = null;
                 if (request.scroll() != null) {
                     scrollId = TransportSearchHelper.buildScrollId(request.searchType(), firstResults);

@@ -62,7 +62,8 @@ import org.elasticsearch.search.suggest.Suggest;
 
 
 import java.io.IOException;
-import java.net.*;
+import java.net.URL;
+import java.net.URLConnection;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Arrays;

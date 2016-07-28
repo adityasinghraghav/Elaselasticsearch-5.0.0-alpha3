@@ -334,3 +334,29 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: 20
 [2016-07-28 15:46:52,422][WARN ][gateway                  ] [Greer Grant Nelson] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
 [2016-07-28 15:46:52,554][INFO ][cluster.routing.allocation] [Greer Grant Nelson] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
 [2016-07-28 15:46:52,556][WARN ][gateway                  ] [Greer Grant Nelson] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 15:59:12,534][INFO ][node                     ] [Alexander Bont] version[5.0.0-alpha3-SNAPSHOT], pid[7036], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 15:59:12,534][INFO ][node                     ] [Alexander Bont] initializing ...
+[2016-07-28 15:59:12,542][INFO ][plugins                  ] [Alexander Bont] modules [], plugins []
+[2016-07-28 15:59:12,576][INFO ][env                      ] [Alexander Bont] using [1] data paths, mounts [[OS (C:)]], net usable_space [75.2gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 15:59:12,576][INFO ][env                      ] [Alexander Bont] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 15:59:15,784][INFO ][node                     ] [Alexander Bont] initialized
+[2016-07-28 15:59:15,785][INFO ][node                     ] [Alexander Bont] starting ...
+[2016-07-28 17:14:23,286][INFO ][node                     ] [Kang the Conqueror] version[5.0.0-alpha3-SNAPSHOT], pid[4460], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 17:14:23,287][INFO ][node                     ] [Kang the Conqueror] initializing ...
+[2016-07-28 17:14:23,294][INFO ][plugins                  ] [Kang the Conqueror] modules [], plugins []
+[2016-07-28 17:14:23,323][INFO ][env                      ] [Kang the Conqueror] using [1] data paths, mounts [[OS (C:)]], net usable_space [72.8gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 17:14:23,323][INFO ][env                      ] [Kang the Conqueror] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 17:14:25,684][INFO ][node                     ] [Kang the Conqueror] initialized
+[2016-07-28 17:14:25,684][INFO ][node                     ] [Kang the Conqueror] starting ...
+[2016-07-28 17:14:25,850][INFO ][transport                ] [Kang the Conqueror] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 17:14:25,854][WARN ][bootstrap                ] [Kang the Conqueror] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 17:14:29,902][INFO ][cluster.service          ] [Kang the Conqueror] new_master {Kang the Conqueror}{LaBa8_-cQlGdvSjxa1yICQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 17:14:29,988][INFO ][http                     ] [Kang the Conqueror] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 17:14:29,988][INFO ][node                     ] [Kang the Conqueror] started
+[2016-07-28 17:14:30,274][WARN ][gateway                  ] [Kang the Conqueror] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:14:30,275][INFO ][gateway                  ] [Kang the Conqueror] recovered [1] indices into cluster_state
+[2016-07-28 17:14:30,430][WARN ][gateway                  ] [Kang the Conqueror] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:14:30,570][WARN ][gateway                  ] [Kang the Conqueror] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:14:30,974][WARN ][gateway                  ] [Kang the Conqueror] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:14:31,037][INFO ][cluster.routing.allocation] [Kang the Conqueror] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-28 17:14:31,041][WARN ][gateway                  ] [Kang the Conqueror] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
