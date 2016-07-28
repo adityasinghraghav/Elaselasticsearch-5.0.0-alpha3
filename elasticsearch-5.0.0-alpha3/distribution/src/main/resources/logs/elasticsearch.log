@@ -360,3 +360,21 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: 20
 [2016-07-28 17:14:30,974][WARN ][gateway                  ] [Kang the Conqueror] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
 [2016-07-28 17:14:31,037][INFO ][cluster.routing.allocation] [Kang the Conqueror] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
 [2016-07-28 17:14:31,041][WARN ][gateway                  ] [Kang the Conqueror] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:41:35,045][INFO ][node                     ] [Marduk Kurios] version[5.0.0-alpha3-SNAPSHOT], pid[8984], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 17:41:35,046][INFO ][node                     ] [Marduk Kurios] initializing ...
+[2016-07-28 17:41:35,053][INFO ][plugins                  ] [Marduk Kurios] modules [], plugins []
+[2016-07-28 17:41:35,083][INFO ][env                      ] [Marduk Kurios] using [1] data paths, mounts [[OS (C:)]], net usable_space [71.7gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 17:41:35,083][INFO ][env                      ] [Marduk Kurios] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 17:41:37,561][INFO ][node                     ] [Marduk Kurios] initialized
+[2016-07-28 17:41:37,561][INFO ][node                     ] [Marduk Kurios] starting ...
+[2016-07-28 17:41:37,718][INFO ][transport                ] [Marduk Kurios] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 17:41:37,725][WARN ][bootstrap                ] [Marduk Kurios] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 17:41:41,812][INFO ][cluster.service          ] [Marduk Kurios] new_master {Marduk Kurios}{fLdvcTegRKKivCEp-nAtxQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 17:41:41,902][INFO ][http                     ] [Marduk Kurios] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 17:41:41,902][INFO ][node                     ] [Marduk Kurios] started
+[2016-07-28 17:41:42,055][WARN ][gateway                  ] [Marduk Kurios] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:41:42,056][INFO ][gateway                  ] [Marduk Kurios] recovered [1] indices into cluster_state
+[2016-07-28 17:41:42,200][WARN ][gateway                  ] [Marduk Kurios] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:41:42,441][WARN ][gateway                  ] [Marduk Kurios] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:41:42,485][INFO ][cluster.routing.allocation] [Marduk Kurios] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-28 17:41:42,487][WARN ][gateway                  ] [Marduk Kurios] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata

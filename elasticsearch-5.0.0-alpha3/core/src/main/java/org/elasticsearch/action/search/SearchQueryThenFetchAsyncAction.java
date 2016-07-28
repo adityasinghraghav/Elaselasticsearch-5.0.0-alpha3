@@ -69,7 +69,19 @@ class SearchQueryThenFetchAsyncAction extends AbstractSearchAsyncAction<QuerySea
     @Override
     protected void moveToSecondPhase() throws Exception {
         boolean useScroll = request.scroll() != null;
-        sortedShardList = searchPhaseController.sortDocs(useScroll, firstResults, this.request.source().odoscope());
+
+        boolean value;
+
+        if(request.source() != null)
+        {
+            value = request.source().odoscope();
+        }
+        else
+        {
+            value = false;
+        }
+
+        sortedShardList = searchPhaseController.sortDocs(useScroll, firstResults, value);
         searchPhaseController.fillDocIdsToLoad(docIdsToLoad, sortedShardList);
 
         if (docIdsToLoad.asList().isEmpty()) {

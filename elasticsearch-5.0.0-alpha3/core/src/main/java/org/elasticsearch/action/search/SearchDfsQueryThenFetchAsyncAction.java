@@ -136,7 +136,19 @@ class SearchDfsQueryThenFetchAsyncAction extends AbstractSearchAsyncAction<DfsSe
 
     void innerExecuteFetchPhase() throws Exception {
         boolean useScroll = request.scroll() != null;
-        sortedShardList = searchPhaseController.sortDocs(useScroll, queryResults, this.request.source().odoscope());
+
+        boolean value;
+
+        if(request.source() != null)
+        {
+            value = request.source().odoscope();
+        }
+        else
+        {
+            value = false;
+        }
+
+        sortedShardList = searchPhaseController.sortDocs(useScroll, queryResults, value);
         searchPhaseController.fillDocIdsToLoad(docIdsToLoad, sortedShardList);
 
         if (docIdsToLoad.asList().isEmpty()) {
