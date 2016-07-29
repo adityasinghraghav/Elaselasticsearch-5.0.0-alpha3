@@ -670,6 +670,7 @@ public class SearchService extends AbstractLifecycleComponent<SearchService> imp
         QueryShardContext queryShardContext = context.getQueryShardContext();
         context.from(source.from());
         context.size(source.size());
+        context.osc_ua(source.osc_ua());
         ObjectFloatHashMap<String> indexBoostMap = source.indexBoost();
         if (indexBoostMap != null) {
             Float indexBoost = indexBoostMap.get(context.shardTarget().index());
@@ -712,10 +713,6 @@ public class SearchService extends AbstractLifecycleComponent<SearchService> imp
         if (source.profile()) {
             context.setProfilers(new Profilers(context.searcher()));
         }
-        if (source.odoscope()) {
-            context.odoscope(source.odoscope());
-        }
-
 
         context.timeoutInMillis(source.timeoutInMillis());
         context.terminateAfter(source.terminateAfter());

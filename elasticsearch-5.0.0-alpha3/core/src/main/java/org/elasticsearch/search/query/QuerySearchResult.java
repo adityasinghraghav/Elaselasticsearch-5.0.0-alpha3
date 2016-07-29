@@ -52,6 +52,7 @@ public class QuerySearchResult extends QuerySearchResultProvider {
     private SearchShardTarget shardTarget;
     private int from;
     private int size;
+    private String osc_ua;
     private TopDocs topDocs;
     private DocValueFormat[] sortValueFormats;
     private InternalAggregations aggregations;
@@ -189,6 +190,15 @@ public class QuerySearchResult extends QuerySearchResultProvider {
         return this;
     }
 
+    public String osc_ua() {
+        return osc_ua;
+    }
+
+    public QuerySearchResult osc_ua(String osc_ua) {
+        this.osc_ua = osc_ua;
+        return this;
+    }
+
     public static QuerySearchResult readQuerySearchResult(StreamInput in) throws IOException {
         QuerySearchResult result = new QuerySearchResult();
         result.readFrom(in);
@@ -207,6 +217,9 @@ public class QuerySearchResult extends QuerySearchResultProvider {
 //        shardTarget = readSearchShardTarget(in);
         from = in.readVInt();
         size = in.readVInt();
+
+        osc_ua = in.readString();
+
         int numSortFieldsPlus1 = in.readVInt();
         if (numSortFieldsPlus1 == 0) {
             sortValueFormats = null;
@@ -257,6 +270,8 @@ public class QuerySearchResult extends QuerySearchResultProvider {
 //        shardTarget.writeTo(out);
         out.writeVInt(from);
         out.writeVInt(size);
+        out.writeString(osc_ua);
+
         if (sortValueFormats == null) {
             out.writeVInt(0);
         } else {

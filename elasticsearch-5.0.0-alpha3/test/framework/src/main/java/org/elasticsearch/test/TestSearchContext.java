@@ -365,12 +365,12 @@ public class TestSearchContext extends SearchContext {
     }
 
     @Override
-    public boolean odoscope() {
-        return false;
+    public String osc_ua() {
+        return "false";
     }
 
     @Override
-    public SearchContext odoscope(boolean odoscope) {
+    public SearchContext osc_ua(String osc_ua) {
         return null;
     }
 

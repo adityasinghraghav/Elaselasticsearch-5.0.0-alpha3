@@ -145,13 +145,14 @@ public class QueryPhase implements SearchPhase {
         try {
             queryResult.from(searchContext.from());
             queryResult.size(searchContext.size());
+            queryResult.osc_ua(searchContext.osc_ua());
 
             Query query = searchContext.query();
 
             final int totalNumDocs = searcher.getIndexReader().numDocs();
             int numDocs;
 
-            if(searchContext.odoscope())
+            if(!searchContext.osc_ua().equals("false"))
             {
                 numDocs= Math.min(searchContext.from() + searchContext.size() + 1000, totalNumDocs);
             }

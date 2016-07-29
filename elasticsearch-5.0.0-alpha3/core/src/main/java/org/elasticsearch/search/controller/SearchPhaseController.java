@@ -174,7 +174,7 @@ public class SearchPhaseController extends AbstractComponent {
      *                   Enabled only for scroll search, because that only retrieves hits of length 'size' in the query phase.
      * @param resultsArr Shard result holder
      */
-    public ScoreDoc[] sortDocs(boolean ignoreFrom, AtomicArray<? extends QuerySearchResultProvider> resultsArr, boolean odoscope) throws IOException {
+    public ScoreDoc[] sortDocs(boolean ignoreFrom, AtomicArray<? extends QuerySearchResultProvider> resultsArr) throws IOException {
         List<? extends AtomicArray.Entry<? extends QuerySearchResultProvider>> results = resultsArr.asList();
         if (results.isEmpty()) {
             return EMPTY_DOCS;
@@ -232,7 +232,7 @@ public class SearchPhaseController extends AbstractComponent {
 
         int topN;
 
-        if(odoscope){
+        if(!firstResult.queryResult().osc_ua().equals("false")){
             topN = firstResult.queryResult().size() +firstResult.queryResult().from()+1000;
         }
         else{
@@ -317,7 +317,7 @@ public class SearchPhaseController extends AbstractComponent {
     }
 
     public InternalSearchResponse merge(ScoreDoc[] sortedDocs, AtomicArray<? extends QuerySearchResultProvider> queryResultsArr,
-                                        AtomicArray<? extends FetchSearchResultProvider> fetchResultsArr, boolean odoscope) {
+                                        AtomicArray<? extends FetchSearchResultProvider> fetchResultsArr) {
 
         List<? extends AtomicArray.Entry<? extends QuerySearchResultProvider>> queryResults = queryResultsArr.asList();
         List<? extends AtomicArray.Entry<? extends FetchSearchResultProvider>> fetchResults = fetchResultsArr.asList();
@@ -374,7 +374,7 @@ public class SearchPhaseController extends AbstractComponent {
         // merge hits
 
 
-        if(odoscope)
+        if(!firstResult.queryResult().osc_ua().equals("false"))
         {
             String skus[] = new String[firstResult.queryResult().size()];
             String query = ("{\"from\":").concat((String.valueOf(firstResult.queryResult().from()).concat(((",\"size\":").concat((String.valueOf(firstResult.queryResult().size()).concat(",\"results\":[")))))));

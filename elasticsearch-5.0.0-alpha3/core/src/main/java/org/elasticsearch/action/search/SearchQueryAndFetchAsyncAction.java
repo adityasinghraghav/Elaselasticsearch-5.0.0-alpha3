@@ -61,21 +61,10 @@ class SearchQueryAndFetchAsyncAction extends AbstractSearchAsyncAction<QueryFetc
             @Override
             public void doRun() throws IOException {
                 boolean useScroll = request.scroll() != null;
-                boolean value;
 
-                if(request.source() != null)
-                {
-                    value = request.source().odoscope();
-                }
-                else
-                {
-                    value = false;
-                }
-
-
-                sortedShardList = searchPhaseController.sortDocs(useScroll, firstResults, false);
+                sortedShardList = searchPhaseController.sortDocs(useScroll, firstResults);
                 final InternalSearchResponse internalResponse = searchPhaseController.merge(sortedShardList, firstResults,
-                    firstResults, value);
+                    firstResults);
                 String scrollId = null;
                 if (request.scroll() != null) {
                     scrollId = TransportSearchHelper.buildScrollId(request.searchType(), firstResults);

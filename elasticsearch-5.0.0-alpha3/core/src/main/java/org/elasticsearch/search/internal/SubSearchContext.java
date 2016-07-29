@@ -47,6 +47,7 @@ public class SubSearchContext extends FilteredSearchContext {
 
     private int from;
     private int size = DEFAULT_SIZE;
+    private String osc_ua;
     private SortAndFormats sort;
     private ParsedQuery parsedQuery;
     private Query query;
@@ -64,7 +65,6 @@ public class SubSearchContext extends FilteredSearchContext {
     private SearchContextHighlight highlight;
 
     private boolean explain;
-    private boolean odoscope;
     private boolean trackScores;
     private boolean version;
 
@@ -212,19 +212,6 @@ public class SubSearchContext extends FilteredSearchContext {
         return trackScores;
     }
 
-
-    @Override
-    public SearchContext odoscope(boolean odoscope) {
-        this.odoscope = odoscope;
-        return this;
-    }
-
-    @Override
-    public boolean odoscope() {
-        return odoscope;
-    }
-
-
     @Override
     public SearchContext parsedPostFilter(ParsedQuery postFilter) {
         throw new UnsupportedOperationException("Not supported");
@@ -249,6 +236,17 @@ public class SubSearchContext extends FilteredSearchContext {
     @Override
     public SearchContext size(int size) {
         this.size = size;
+        return this;
+    }
+
+    @Override
+    public String osc_ua() {
+        return osc_ua;
+    }
+
+    @Override
+    public SearchContext osc_ua(String osc_ua) {
+        this.osc_ua = osc_ua;
         return this;
     }
 

@@ -273,6 +273,11 @@ public abstract class SearchContext implements Releasable {
 
     public abstract SearchContext from(int from);
 
+
+    public abstract String osc_ua();
+
+    public abstract SearchContext osc_ua(String osc_ua);
+
     public abstract int size();
 
     public abstract SearchContext size(int size);
@@ -295,11 +300,6 @@ public abstract class SearchContext implements Releasable {
     public abstract boolean version();
 
     public abstract void version(boolean version);
-
-    public abstract boolean odoscope();
-
-    public abstract SearchContext odoscope(boolean odoscope);
-
 
     public abstract int[] docIdsToLoad();
 

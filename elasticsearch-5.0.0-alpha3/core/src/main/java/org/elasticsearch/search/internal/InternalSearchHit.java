@@ -133,10 +133,6 @@ public class InternalSearchHit implements SearchHit {
         this.score = score;
     }
 
-    public void odoscope() {
-        this.source = null;
-    }
-
     @Override
     public float score() {
         return this.score;

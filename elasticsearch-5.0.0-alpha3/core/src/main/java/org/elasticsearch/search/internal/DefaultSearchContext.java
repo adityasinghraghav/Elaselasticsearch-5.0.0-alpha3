@@ -113,10 +113,10 @@ public class DefaultSearchContext extends SearchContext {
     private FetchSourceContext fetchSourceContext;
     private int from = -1;
     private int size = -1;
+    private String osc_ua = "false";
     private SortAndFormats sort;
     private Float minimumScore;
     private boolean trackScores = false; // when sorting, track scores as well...
-    private boolean odoscope = false;
     private FieldDoc searchAfter;
     /**
      * The original query as sent by the user without the types and aliases
@@ -616,6 +616,18 @@ public class DefaultSearchContext extends SearchContext {
     }
 
     @Override
+    public String osc_ua() {
+        return osc_ua;
+    }
+
+    @Override
+    public SearchContext osc_ua(String osc_ua) {
+        this.osc_ua = osc_ua;
+        return this;
+    }
+
+
+    @Override
     public int size() {
         return size;
     }
@@ -674,23 +686,6 @@ public class DefaultSearchContext extends SearchContext {
     public void version(boolean version) {
         this.version = version;
     }
-
-
-    @Override
-    public boolean odoscope() {
-        return odoscope;
-    }
-
-    @Override
-    public SearchContext odoscope(boolean odoscope) {
-        this.odoscope = odoscope;
-        return this;
-    }
-
-
-
-
-
 
     @Override
     public int[] docIdsToLoad() {

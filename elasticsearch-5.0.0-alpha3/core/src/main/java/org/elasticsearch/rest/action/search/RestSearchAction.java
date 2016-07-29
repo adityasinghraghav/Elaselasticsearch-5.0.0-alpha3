@@ -177,6 +177,11 @@ public class RestSearchAction extends BaseRestHandler {
             searchSourceBuilder.size(size);
         }
 
+        String osc_ua = request.param("osc_ua", "false");
+        if (!osc_ua.equals("false")) {
+            searchSourceBuilder.osc_ua(osc_ua);
+        }
+
         if (request.hasParam("explain")) {
             searchSourceBuilder.explain(request.paramAsBoolean("explain", null));
         }

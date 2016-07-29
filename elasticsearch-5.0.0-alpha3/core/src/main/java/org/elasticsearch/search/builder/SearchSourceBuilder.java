@@ -74,6 +74,7 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
 
     public static final ParseField FROM_FIELD = new ParseField("from");
     public static final ParseField SIZE_FIELD = new ParseField("size");
+    public static final ParseField OSC_UA_FIELD = new ParseField("osc_ua");
     public static final ParseField TIMEOUT_FIELD = new ParseField("timeout");
     public static final ParseField TERMINATE_AFTER_FIELD = new ParseField("terminate_after");
     public static final ParseField QUERY_FIELD = new ParseField("query");
@@ -81,7 +82,6 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
     public static final ParseField MIN_SCORE_FIELD = new ParseField("min_score");
     public static final ParseField VERSION_FIELD = new ParseField("version");
     public static final ParseField EXPLAIN_FIELD = new ParseField("explain");
-    public static final ParseField ODOSCOPE_FIELD = new ParseField("odoscope");
     public static final ParseField _SOURCE_FIELD = new ParseField("_source");
     public static final ParseField FIELDS_FIELD = new ParseField("fields");
     public static final ParseField FIELDDATA_FIELDS_FIELD = new ParseField("fielddata_fields");
@@ -129,6 +129,8 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
 
     private int size = -1;
 
+    private String osc_ua = "false";
+
     private Boolean explain;
 
 
@@ -167,9 +169,6 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
 
     private boolean profile = false;
 
-    private boolean odoscope = false;
-
-
     /**
      * Constructs a new search source builder.
      */
@@ -202,6 +201,7 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
             }
         }
         from = in.readVInt();
+        osc_ua = in.readString();
         highlightBuilder = in.readOptionalWriteable(HighlightBuilder::new);
         boolean hasIndexBoost = in.readBoolean();
         if (hasIndexBoost) {
@@ -261,7 +261,6 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
         }
 
         profile = in.readBoolean();
-        odoscope = in.readBoolean();
 
         if (in.readBoolean()) {
             searchAfterBuilder = new SearchAfterBuilder(in);
@@ -294,6 +293,7 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
             }
         }
         out.writeVInt(from);
+        out.writeString(osc_ua);
         out.writeOptionalWriteable(highlightBuilder);
         boolean hasIndexBoost = indexBoost != null;
         out.writeBoolean(hasIndexBoost);
@@ -367,7 +367,6 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
             out.writeBytesReference(ext);
         }
         out.writeBoolean(profile);
-        out.writeBoolean(odoscope);
         boolean hasSearchAfter = searchAfterBuilder != null;
         out.writeBoolean(hasSearchAfter);
         if (hasSearchAfter) {
@@ -417,11 +416,20 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
         return this;
     }
 
+    public SearchSourceBuilder osc_ua(String osc_ua) {
+        this.osc_ua = osc_ua;
+        return this;
+    }
+
     /**
      * Gets the from index to start the search from.
      **/
     public int from() {
         return from;
+    }
+
+    public String osc_ua() {
+        return osc_ua;
     }
 
     /**
@@ -683,18 +691,11 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
         return this;
     }
 
-    public SearchSourceBuilder odoscope(boolean odoscope) {
-        this.odoscope = odoscope;
-        return this;
-    }
-
     /**
      * Return whether to profile query execution, or {@code null} if
      * unspecified.
      */
     public boolean profile() { return profile; }
-
-    public boolean odoscope() { return odoscope; }
 
     /**
      * Gets the bytes representing the rescore builders for this request.
@@ -948,12 +949,12 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
             rewrittenBuilder.fieldDataFields = fieldDataFields;
             rewrittenBuilder.fieldNames = fieldNames;
             rewrittenBuilder.from = from;
+            rewrittenBuilder.osc_ua = osc_ua;
             rewrittenBuilder.highlightBuilder = highlightBuilder;
             rewrittenBuilder.indexBoost = indexBoost;
             rewrittenBuilder.minScore = minScore;
             rewrittenBuilder.postQueryBuilder = postQueryBuilder;
             rewrittenBuilder.profile = profile;
-            rewrittenBuilder.odoscope = odoscope;
             rewrittenBuilder.queryBuilder = queryBuilder;
             rewrittenBuilder.rescoreBuilders = rescoreBuilders;
             rewrittenBuilder.scriptFields = scriptFields;
@@ -992,6 +993,8 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
                     from = parser.intValue();
                 } else if (context.getParseFieldMatcher().match(currentFieldName, SIZE_FIELD)) {
                     size = parser.intValue();
+                } else if (context.getParseFieldMatcher().match(currentFieldName, OSC_UA_FIELD)) {
+                    osc_ua = parser.text();
                 } else if (context.getParseFieldMatcher().match(currentFieldName, TIMEOUT_FIELD)) {
                     timeoutInMillis = parser.longValue();
                 } else if (context.getParseFieldMatcher().match(currentFieldName, TERMINATE_AFTER_FIELD)) {
@@ -1012,9 +1015,7 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
                     sort(parser.text());
                 } else if (context.getParseFieldMatcher().match(currentFieldName, PROFILE_FIELD)) {
                     profile = parser.booleanValue();
-                } else if (context.getParseFieldMatcher().match(currentFieldName, ODOSCOPE_FIELD)) {
-                    odoscope = parser.booleanValue();
-                } else {
+                }else {
                     throw new ParsingException(parser.getTokenLocation(), "Unknown key for a " + token + " in [" + currentFieldName + "].",
                             parser.getTokenLocation());
                 }
@@ -1129,6 +1130,9 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
         if (size != -1) {
             builder.field(SIZE_FIELD.getPreferredName(), size);
         }
+        if (!osc_ua.equals("false")) {
+            builder.field(OSC_UA_FIELD.getPreferredName(), osc_ua);
+        }
 
         if (timeoutInMillis != -1) {
             builder.field(TIMEOUT_FIELD.getPreferredName(), timeoutInMillis);
@@ -1160,10 +1164,6 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
 
         if (profile) {
             builder.field("profile", true);
-        }
-
-        if (odoscope) {
-            builder.field("odoscope", true);
         }
 
         if (fetchSourceContext != null) {
@@ -1376,7 +1376,7 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
     public int hashCode() {
         return Objects.hash(aggregations, explain, fetchSourceContext, fieldDataFields, fieldNames, from,
                 highlightBuilder, indexBoost, minScore, postQueryBuilder, queryBuilder, rescoreBuilders, scriptFields,
-                size, sorts, searchAfterBuilder, stats, suggestBuilder, terminateAfter, timeoutInMillis, trackScores, version, profile, odoscope);
+                size, sorts, searchAfterBuilder, stats, suggestBuilder, terminateAfter, timeoutInMillis, trackScores, version, profile, osc_ua);
     }
 
     @Override
@@ -1402,6 +1402,7 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
                 && Objects.equals(rescoreBuilders, other.rescoreBuilders)
                 && Objects.equals(scriptFields, other.scriptFields)
                 && Objects.equals(size, other.size)
+                && Objects.equals(osc_ua, other.osc_ua)
                 && Objects.equals(sorts, other.sorts)
                 && Objects.equals(searchAfterBuilder, other.searchAfterBuilder)
                 && Objects.equals(stats, other.stats)
@@ -1410,8 +1411,7 @@ public final class SearchSourceBuilder extends ToXContentToBytes implements Writ
                 && Objects.equals(timeoutInMillis, other.timeoutInMillis)
                 && Objects.equals(trackScores, other.trackScores)
                 && Objects.equals(version, other.version)
-                && Objects.equals(profile, other.profile)
-                && Objects.equals(odoscope, other.odoscope);
+                && Objects.equals(profile, other.profile);
     }
 
 }

@@ -320,19 +320,6 @@ public abstract class FilteredSearchContext extends SearchContext {
     }
 
     @Override
-    public SearchContext odoscope(boolean odoscope) {
-        return in.odoscope(odoscope);
-    }
-
-    @Override
-    public boolean odoscope() {
-        return in.odoscope();
-    }
-
-
-
-
-    @Override
     public SearchContext searchAfter(FieldDoc searchAfter) {
         return in.searchAfter(searchAfter);
     }
@@ -391,6 +378,17 @@ public abstract class FilteredSearchContext extends SearchContext {
     public SearchContext size(int size) {
         return in.size(size);
     }
+
+
+    @Override
+    public String osc_ua() {
+        return in.osc_ua();
+    }
+
+    @Override
+    public SearchContext osc_ua(String osc_ua) {
+        return in.osc_ua(osc_ua);
+         }
 
     @Override
     public boolean hasFieldNames() {

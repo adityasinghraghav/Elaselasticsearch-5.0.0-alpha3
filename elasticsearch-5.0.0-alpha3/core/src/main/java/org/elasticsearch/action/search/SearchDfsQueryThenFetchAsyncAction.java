@@ -137,18 +137,7 @@ class SearchDfsQueryThenFetchAsyncAction extends AbstractSearchAsyncAction<DfsSe
     void innerExecuteFetchPhase() throws Exception {
         boolean useScroll = request.scroll() != null;
 
-        boolean value;
-
-        if(request.source() != null)
-        {
-            value = request.source().odoscope();
-        }
-        else
-        {
-            value = false;
-        }
-
-        sortedShardList = searchPhaseController.sortDocs(useScroll, queryResults, value);
+        sortedShardList = searchPhaseController.sortDocs(useScroll, queryResults);
         searchPhaseController.fillDocIdsToLoad(docIdsToLoad, sortedShardList);
 
         if (docIdsToLoad.asList().isEmpty()) {
@@ -208,20 +197,8 @@ class SearchDfsQueryThenFetchAsyncAction extends AbstractSearchAsyncAction<DfsSe
         threadPool.executor(ThreadPool.Names.SEARCH).execute(new ActionRunnable<SearchResponse>(listener) {
             @Override
             public void doRun() throws IOException {
-
-                boolean value;
-
-                if(request.source() != null)
-                {
-                    value = request.source().odoscope();
-                }
-                else
-                {
-                    value = false;
-                }
-
                 final InternalSearchResponse internalResponse = searchPhaseController.merge(sortedShardList, queryResults,
-                    fetchResults,value);
+                    fetchResults);
                 String scrollId = null;
                 if (request.scroll() != null) {
                     scrollId = TransportSearchHelper.buildScrollId(request.searchType(), firstResults);

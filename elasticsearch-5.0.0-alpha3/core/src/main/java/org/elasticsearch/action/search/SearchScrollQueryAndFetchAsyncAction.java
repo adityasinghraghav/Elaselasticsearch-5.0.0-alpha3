@@ -168,9 +168,9 @@ class SearchScrollQueryAndFetchAsyncAction extends AbstractAsyncAction {
     }
 
     private void innerFinishHim() throws Exception {
-        ScoreDoc[] sortedShardList = searchPhaseController.sortDocs(true, queryFetchResults, false);
+        ScoreDoc[] sortedShardList = searchPhaseController.sortDocs(true, queryFetchResults);
         final InternalSearchResponse internalResponse = searchPhaseController.merge(sortedShardList, queryFetchResults,
-            queryFetchResults, false);
+            queryFetchResults);
         String scrollId = null;
         if (request.scroll() != null) {
             scrollId = request.scrollId();

@@ -164,7 +164,7 @@ class SearchScrollQueryThenFetchAsyncAction extends AbstractAsyncAction {
     }
 
     private void executeFetchPhase() throws Exception {
-        sortedShardList = searchPhaseController.sortDocs(true, queryResults, false);
+        sortedShardList = searchPhaseController.sortDocs(true, queryResults);
         AtomicArray<IntArrayList> docIdsToLoad = new AtomicArray<>(queryResults.length());
         searchPhaseController.fillDocIdsToLoad(docIdsToLoad, sortedShardList);
 
@@ -215,7 +215,7 @@ class SearchScrollQueryThenFetchAsyncAction extends AbstractAsyncAction {
     }
 
     private void innerFinishHim() {
-        InternalSearchResponse internalResponse = searchPhaseController.merge(sortedShardList, queryResults, fetchResults, false);
+        InternalSearchResponse internalResponse = searchPhaseController.merge(sortedShardList, queryResults, fetchResults);
         String scrollId = null;
         if (request.scroll() != null) {
             scrollId = request.scrollId();
