@@ -1,0 +1,176 @@
+[2016-08-01 09:41:18,855][INFO ][node                     ] [Vegas] version[5.0.0-alpha3-SNAPSHOT], pid[1392], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-08-01 09:41:18,857][INFO ][node                     ] [Vegas] initializing ...
+[2016-08-01 09:41:18,881][INFO ][plugins                  ] [Vegas] modules [], plugins []
+[2016-08-01 09:41:18,938][INFO ][env                      ] [Vegas] using [1] data paths, mounts [[OS (C:)]], net usable_space [73.4gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-08-01 09:41:18,938][INFO ][env                      ] [Vegas] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-08-01 09:41:29,363][INFO ][node                     ] [Vegas] initialized
+[2016-08-01 09:41:29,363][INFO ][node                     ] [Vegas] starting ...
+[2016-08-01 09:41:29,614][INFO ][transport                ] [Vegas] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-08-01 09:41:29,647][WARN ][bootstrap                ] [Vegas] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-08-01 09:41:33,875][INFO ][cluster.service          ] [Vegas] new_master {Vegas}{KSu83eidRvq9s4lzBId_-g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-08-01 09:41:34,015][INFO ][http                     ] [Vegas] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-08-01 09:41:34,016][INFO ][node                     ] [Vegas] started
+[2016-08-01 09:41:34,845][WARN ][gateway                  ] [Vegas] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:41:34,846][INFO ][gateway                  ] [Vegas] recovered [2] indices into cluster_state
+[2016-08-01 09:41:35,074][WARN ][gateway                  ] [Vegas] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:41:35,117][WARN ][gateway                  ] [Vegas] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:41:35,459][WARN ][gateway                  ] [Vegas] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:41:35,597][WARN ][gateway                  ] [Vegas] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:41:35,768][WARN ][gateway                  ] [Vegas] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:41:35,865][WARN ][gateway                  ] [Vegas] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:41:35,869][WARN ][gateway                  ] [Vegas] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:41:35,937][INFO ][cluster.routing.allocation] [Vegas] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-08-01 09:41:35,939][WARN ][gateway                  ] [Vegas] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:59:29,770][INFO ][node                     ] [Sushi] version[5.0.0-alpha3-SNAPSHOT], pid[5132], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-08-01 09:59:29,770][INFO ][node                     ] [Sushi] initializing ...
+[2016-08-01 09:59:29,775][INFO ][plugins                  ] [Sushi] modules [], plugins []
+[2016-08-01 09:59:29,803][INFO ][env                      ] [Sushi] using [1] data paths, mounts [[OS (C:)]], net usable_space [73.5gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-08-01 09:59:29,803][INFO ][env                      ] [Sushi] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-08-01 09:59:32,427][INFO ][node                     ] [Sushi] initialized
+[2016-08-01 09:59:32,427][INFO ][node                     ] [Sushi] starting ...
+[2016-08-01 09:59:32,613][INFO ][transport                ] [Sushi] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-08-01 09:59:32,645][WARN ][bootstrap                ] [Sushi] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-08-01 09:59:36,821][INFO ][cluster.service          ] [Sushi] new_master {Sushi}{BcNFKUV6QnmX5TKTKgFcxQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-08-01 09:59:36,934][INFO ][http                     ] [Sushi] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-08-01 09:59:36,934][INFO ][node                     ] [Sushi] started
+[2016-08-01 09:59:37,157][WARN ][gateway                  ] [Sushi] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:59:37,157][INFO ][gateway                  ] [Sushi] recovered [2] indices into cluster_state
+[2016-08-01 09:59:37,303][WARN ][gateway                  ] [Sushi] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:59:37,563][WARN ][gateway                  ] [Sushi] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:59:37,614][WARN ][gateway                  ] [Sushi] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:59:37,619][WARN ][gateway                  ] [Sushi] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 09:59:37,644][INFO ][cluster.routing.allocation] [Sushi] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-08-01 09:59:37,646][WARN ][gateway                  ] [Sushi] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:01:27,733][INFO ][node                     ] [Monica Rappaccini] version[5.0.0-alpha3-SNAPSHOT], pid[10156], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-08-01 10:01:27,734][INFO ][node                     ] [Monica Rappaccini] initializing ...
+[2016-08-01 10:01:27,741][INFO ][plugins                  ] [Monica Rappaccini] modules [], plugins []
+[2016-08-01 10:01:27,770][INFO ][env                      ] [Monica Rappaccini] using [1] data paths, mounts [[OS (C:)]], net usable_space [73.5gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-08-01 10:01:27,770][INFO ][env                      ] [Monica Rappaccini] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-08-01 10:01:30,179][INFO ][node                     ] [Monica Rappaccini] initialized
+[2016-08-01 10:01:30,179][INFO ][node                     ] [Monica Rappaccini] starting ...
+[2016-08-01 10:01:30,342][INFO ][transport                ] [Monica Rappaccini] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-08-01 10:01:30,346][WARN ][bootstrap                ] [Monica Rappaccini] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-08-01 10:01:34,449][INFO ][cluster.service          ] [Monica Rappaccini] new_master {Monica Rappaccini}{Fjep1Q5LQmenG7Gct3QVXQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-08-01 10:01:34,542][INFO ][http                     ] [Monica Rappaccini] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-08-01 10:01:34,543][INFO ][node                     ] [Monica Rappaccini] started
+[2016-08-01 10:01:34,752][WARN ][gateway                  ] [Monica Rappaccini] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:01:34,752][INFO ][gateway                  ] [Monica Rappaccini] recovered [2] indices into cluster_state
+[2016-08-01 10:01:34,828][WARN ][gateway                  ] [Monica Rappaccini] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:01:35,043][WARN ][gateway                  ] [Monica Rappaccini] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:01:35,143][WARN ][gateway                  ] [Monica Rappaccini] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:01:35,245][WARN ][gateway                  ] [Monica Rappaccini] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:01:35,248][WARN ][gateway                  ] [Monica Rappaccini] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:01:35,268][WARN ][gateway                  ] [Monica Rappaccini] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:01:35,276][INFO ][cluster.routing.allocation] [Monica Rappaccini] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-08-01 10:01:35,278][WARN ][gateway                  ] [Monica Rappaccini] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:24:04,917][INFO ][node                     ] [Asylum] version[5.0.0-alpha3-SNAPSHOT], pid[9192], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-08-01 10:24:04,918][INFO ][node                     ] [Asylum] initializing ...
+[2016-08-01 10:24:04,927][INFO ][plugins                  ] [Asylum] modules [], plugins []
+[2016-08-01 10:24:04,965][INFO ][env                      ] [Asylum] using [1] data paths, mounts [[OS (C:)]], net usable_space [73.5gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-08-01 10:24:04,965][INFO ][env                      ] [Asylum] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-08-01 10:24:07,439][INFO ][node                     ] [Asylum] initialized
+[2016-08-01 10:24:07,439][INFO ][node                     ] [Asylum] starting ...
+[2016-08-01 10:24:07,603][INFO ][transport                ] [Asylum] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-08-01 10:24:07,607][WARN ][bootstrap                ] [Asylum] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-08-01 10:24:11,717][INFO ][cluster.service          ] [Asylum] new_master {Asylum}{AE2QnPEuTLiKXEFCzQloOw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-08-01 10:24:11,796][INFO ][http                     ] [Asylum] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-08-01 10:24:11,796][INFO ][node                     ] [Asylum] started
+[2016-08-01 10:24:12,013][WARN ][gateway                  ] [Asylum] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:24:12,013][INFO ][gateway                  ] [Asylum] recovered [2] indices into cluster_state
+[2016-08-01 10:24:12,183][WARN ][gateway                  ] [Asylum] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:24:12,403][WARN ][gateway                  ] [Asylum] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:24:12,495][WARN ][gateway                  ] [Asylum] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:24:12,499][WARN ][gateway                  ] [Asylum] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:24:12,514][WARN ][gateway                  ] [Asylum] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:24:12,547][INFO ][cluster.routing.allocation] [Asylum] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-08-01 10:24:12,549][WARN ][gateway                  ] [Asylum] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-08-01 10:24:17,516][DEBUG][action.search            ] [Asylum] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:157)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: Exception while calling URL:odoscope.cloud/praxisdienst.de/decisions?maxItems=20&token=XfRqxAgR7XwGW3qzmj2Mxw&categoryID=2dd41e75a881635aa52be72e7f6d2eeb&prodId=421109&hostname=praxisdienst.de
+	at org.elasticsearch.search.controller.SearchPhaseController.callURL(SearchPhaseController.java:856)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:509)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:133)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+Caused by: java.net.MalformedURLException: no protocol: odoscope.cloud/praxisdienst.de/decisions?maxItems=20&token=XfRqxAgR7XwGW3qzmj2Mxw&categoryID=2dd41e75a881635aa52be72e7f6d2eeb&prodId=421109&hostname=praxisdienst.de
+	at java.net.URL.<init>(URL.java:593)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at org.elasticsearch.search.controller.SearchPhaseController.callURL(SearchPhaseController.java:827)
+	... 7 more
+[2016-08-01 10:24:17,518][WARN ][rest.suppressed          ] path: /products/_search, params: {index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:157)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: Exception while calling URL:odoscope.cloud/praxisdienst.de/decisions?maxItems=20&token=XfRqxAgR7XwGW3qzmj2Mxw&categoryID=2dd41e75a881635aa52be72e7f6d2eeb&prodId=421109&hostname=praxisdienst.de
+	at org.elasticsearch.search.controller.SearchPhaseController.callURL(SearchPhaseController.java:856)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:509)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:133)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+Caused by: java.net.MalformedURLException: no protocol: odoscope.cloud/praxisdienst.de/decisions?maxItems=20&token=XfRqxAgR7XwGW3qzmj2Mxw&categoryID=2dd41e75a881635aa52be72e7f6d2eeb&prodId=421109&hostname=praxisdienst.de
+	at java.net.URL.<init>(URL.java:593)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at org.elasticsearch.search.controller.SearchPhaseController.callURL(SearchPhaseController.java:827)
+	... 7 more
+[2016-08-01 10:24:48,272][DEBUG][action.search            ] [Asylum] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:157)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: Exception while calling URL:http:/odoscope.cloud/praxisdienst.de/decisions?maxItems=20&token=XfRqxAgR7XwGW3qzmj2Mxw&categoryID=2dd41e75a881635aa52be72e7f6d2eeb&prodId=421109&hostname=praxisdienst.de
+	at org.elasticsearch.search.controller.SearchPhaseController.callURL(SearchPhaseController.java:856)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:509)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:133)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+Caused by: java.lang.IllegalArgumentException: protocol = http host = null
+	at sun.net.spi.DefaultProxySelector.select(DefaultProxySelector.java:176)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1099)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at org.elasticsearch.search.controller.SearchPhaseController.callURL(SearchPhaseController.java:837)
+	... 7 more
+[2016-08-01 10:24:48,273][WARN ][rest.suppressed          ] path: /products/_search, params: {index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:157)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: Exception while calling URL:http:/odoscope.cloud/praxisdienst.de/decisions?maxItems=20&token=XfRqxAgR7XwGW3qzmj2Mxw&categoryID=2dd41e75a881635aa52be72e7f6d2eeb&prodId=421109&hostname=praxisdienst.de
+	at org.elasticsearch.search.controller.SearchPhaseController.callURL(SearchPhaseController.java:856)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:509)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:133)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+Caused by: java.lang.IllegalArgumentException: protocol = http host = null
+	at sun.net.spi.DefaultProxySelector.select(DefaultProxySelector.java:176)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1099)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at org.elasticsearch.search.controller.SearchPhaseController.callURL(SearchPhaseController.java:837)
+	... 7 more

@@ -1,0 +1,812 @@
+[2016-07-18 09:34:21,054][INFO ][node                     ] [Forbush Man] version[5.0.0-alpha3-SNAPSHOT], pid[3232], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 09:34:21,056][INFO ][node                     ] [Forbush Man] initializing ...
+[2016-07-18 09:34:21,078][INFO ][plugins                  ] [Forbush Man] modules [], plugins []
+[2016-07-18 09:34:21,134][INFO ][env                      ] [Forbush Man] using [1] data paths, mounts [[OS (C:)]], net usable_space [74.1gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 09:34:21,134][INFO ][env                      ] [Forbush Man] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 09:34:32,275][INFO ][node                     ] [Forbush Man] initialized
+[2016-07-18 09:34:32,275][INFO ][node                     ] [Forbush Man] starting ...
+[2016-07-18 09:34:32,512][INFO ][transport                ] [Forbush Man] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 09:34:32,548][WARN ][bootstrap                ] [Forbush Man] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 09:34:36,868][INFO ][cluster.service          ] [Forbush Man] new_master {Forbush Man}{mMrj2xVsSOCHWEDI1ujo4g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 09:34:36,964][INFO ][http                     ] [Forbush Man] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 09:34:36,964][INFO ][node                     ] [Forbush Man] started
+[2016-07-18 09:34:37,665][INFO ][gateway                  ] [Forbush Man] recovered [1] indices into cluster_state
+[2016-07-18 09:34:38,417][INFO ][cluster.routing.allocation] [Forbush Man] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-07-18 10:48:59,064][INFO ][node                     ] [Kiden Nixon] version[5.0.0-alpha3-SNAPSHOT], pid[9700], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 10:48:59,065][INFO ][node                     ] [Kiden Nixon] initializing ...
+[2016-07-18 10:48:59,074][INFO ][plugins                  ] [Kiden Nixon] modules [], plugins []
+[2016-07-18 10:48:59,111][INFO ][env                      ] [Kiden Nixon] using [1] data paths, mounts [[OS (C:)]], net usable_space [74.1gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 10:48:59,111][INFO ][env                      ] [Kiden Nixon] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 10:49:01,651][INFO ][node                     ] [Kiden Nixon] initialized
+[2016-07-18 10:49:01,651][INFO ][node                     ] [Kiden Nixon] starting ...
+[2016-07-18 10:49:01,822][INFO ][transport                ] [Kiden Nixon] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 10:49:01,830][WARN ][bootstrap                ] [Kiden Nixon] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 10:49:05,876][INFO ][cluster.service          ] [Kiden Nixon] new_master {Kiden Nixon}{syfGGZaFSJuTE6Xe-GWQrw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 10:49:05,942][INFO ][http                     ] [Kiden Nixon] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 10:49:05,942][INFO ][node                     ] [Kiden Nixon] started
+[2016-07-18 10:49:06,156][INFO ][gateway                  ] [Kiden Nixon] recovered [1] indices into cluster_state
+[2016-07-18 10:49:06,675][INFO ][cluster.routing.allocation] [Kiden Nixon] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-07-18 10:57:10,801][INFO ][node                     ] [Pulse] version[5.0.0-alpha3-SNAPSHOT], pid[8764], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 10:57:10,801][INFO ][node                     ] [Pulse] initializing ...
+[2016-07-18 10:57:10,807][INFO ][plugins                  ] [Pulse] modules [], plugins []
+[2016-07-18 10:57:10,838][INFO ][env                      ] [Pulse] using [1] data paths, mounts [[OS (C:)]], net usable_space [74.1gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 10:57:10,838][INFO ][env                      ] [Pulse] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 10:57:13,242][INFO ][node                     ] [Pulse] initialized
+[2016-07-18 10:57:13,242][INFO ][node                     ] [Pulse] starting ...
+[2016-07-18 10:57:13,410][INFO ][transport                ] [Pulse] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 10:57:13,414][WARN ][bootstrap                ] [Pulse] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 10:57:17,465][INFO ][cluster.service          ] [Pulse] new_master {Pulse}{7MyCBbkvROm7Y4doff8oaA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 10:57:17,533][INFO ][http                     ] [Pulse] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 10:57:17,533][INFO ][node                     ] [Pulse] started
+[2016-07-18 10:57:17,794][INFO ][gateway                  ] [Pulse] recovered [1] indices into cluster_state
+[2016-07-18 10:57:18,288][INFO ][cluster.routing.allocation] [Pulse] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-07-18 11:03:37,646][INFO ][node                     ] [Box IV] version[5.0.0-alpha3-SNAPSHOT], pid[2364], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 11:03:37,647][INFO ][node                     ] [Box IV] initializing ...
+[2016-07-18 11:03:37,654][INFO ][plugins                  ] [Box IV] modules [], plugins []
+[2016-07-18 11:03:37,686][INFO ][env                      ] [Box IV] using [1] data paths, mounts [[OS (C:)]], net usable_space [74.1gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 11:03:37,686][INFO ][env                      ] [Box IV] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 11:03:40,117][INFO ][node                     ] [Box IV] initialized
+[2016-07-18 11:03:40,117][INFO ][node                     ] [Box IV] starting ...
+[2016-07-18 11:03:40,294][INFO ][transport                ] [Box IV] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 11:03:40,299][WARN ][bootstrap                ] [Box IV] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 11:03:44,348][INFO ][cluster.service          ] [Box IV] new_master {Box IV}{nx2zPuZ3SR21Ibq39M25nQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 11:03:49,014][INFO ][http                     ] [Box IV] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 11:03:49,014][INFO ][node                     ] [Box IV] started
+[2016-07-18 11:03:49,177][INFO ][gateway                  ] [Box IV] recovered [1] indices into cluster_state
+[2016-07-18 11:03:50,492][INFO ][cluster.routing.allocation] [Box IV] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-18 12:49:57,192][INFO ][node                     ] [Hawkeye] version[5.0.0-alpha3-SNAPSHOT], pid[8072], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 12:49:57,192][INFO ][node                     ] [Hawkeye] initializing ...
+[2016-07-18 12:49:57,198][INFO ][plugins                  ] [Hawkeye] modules [], plugins []
+[2016-07-18 12:49:57,227][INFO ][env                      ] [Hawkeye] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 12:49:57,227][INFO ][env                      ] [Hawkeye] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 12:49:59,636][INFO ][node                     ] [Hawkeye] initialized
+[2016-07-18 12:49:59,636][INFO ][node                     ] [Hawkeye] starting ...
+[2016-07-18 12:49:59,805][INFO ][transport                ] [Hawkeye] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 12:49:59,813][WARN ][bootstrap                ] [Hawkeye] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 12:50:03,856][INFO ][cluster.service          ] [Hawkeye] new_master {Hawkeye}{mMd9sAdoQ1iJGvysUcdYwQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 12:50:03,933][INFO ][http                     ] [Hawkeye] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 12:50:03,934][INFO ][node                     ] [Hawkeye] started
+[2016-07-18 12:50:04,195][INFO ][gateway                  ] [Hawkeye] recovered [1] indices into cluster_state
+[2016-07-18 12:50:04,721][INFO ][cluster.routing.allocation] [Hawkeye] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-07-18 13:51:04,491][INFO ][node                     ] [Catiana] version[5.0.0-alpha3-SNAPSHOT], pid[7108], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 13:51:04,491][INFO ][node                     ] [Catiana] initializing ...
+[2016-07-18 13:51:04,537][INFO ][plugins                  ] [Catiana] modules [], plugins []
+[2016-07-18 13:51:04,583][INFO ][env                      ] [Catiana] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 13:51:04,584][INFO ][env                      ] [Catiana] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 13:51:07,173][INFO ][node                     ] [Catiana] initialized
+[2016-07-18 13:51:07,173][INFO ][node                     ] [Catiana] starting ...
+[2016-07-18 13:51:07,342][INFO ][transport                ] [Catiana] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 13:51:07,350][WARN ][bootstrap                ] [Catiana] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 13:51:11,410][INFO ][cluster.service          ] [Catiana] new_master {Catiana}{WW2T0kTsSgWW5Y035DkG2g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 13:51:11,481][INFO ][http                     ] [Catiana] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 13:51:11,481][INFO ][node                     ] [Catiana] started
+[2016-07-18 13:51:11,707][INFO ][gateway                  ] [Catiana] recovered [1] indices into cluster_state
+[2016-07-18 13:51:12,189][INFO ][cluster.routing.allocation] [Catiana] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-18 13:51:32,541][DEBUG][action.search            ] [Catiana] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:146)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.security.AccessControlException: access denied ("java.io.FilePermission" "\tmp\employee.ser" "write")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkWrite(SecurityManager.java:979)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:200)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:401)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 13:51:32,545][WARN ][rest.suppressed          ] path: /products/_search, params: {index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:146)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.security.AccessControlException: access denied ("java.io.FilePermission" "\tmp\employee.ser" "write")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkWrite(SecurityManager.java:979)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:200)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:401)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 13:54:20,034][DEBUG][action.search            ] [Catiana] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:146)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.security.AccessControlException: access denied ("java.io.FilePermission" "\tmp\employee.ser" "write")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkWrite(SecurityManager.java:979)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:200)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:401)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 13:54:20,036][WARN ][rest.suppressed          ] path: /products/_search, params: {index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:146)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.security.AccessControlException: access denied ("java.io.FilePermission" "\tmp\employee.ser" "write")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkWrite(SecurityManager.java:979)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:200)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:401)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 13:54:46,048][INFO ][node                     ] [Kamuu] version[5.0.0-alpha3-SNAPSHOT], pid[9724], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 13:54:46,048][INFO ][node                     ] [Kamuu] initializing ...
+[2016-07-18 13:54:46,055][INFO ][plugins                  ] [Kamuu] modules [], plugins []
+[2016-07-18 13:54:46,094][INFO ][env                      ] [Kamuu] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 13:54:46,094][INFO ][env                      ] [Kamuu] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 13:54:48,585][INFO ][node                     ] [Kamuu] initialized
+[2016-07-18 13:54:48,585][INFO ][node                     ] [Kamuu] starting ...
+[2016-07-18 13:54:48,742][INFO ][transport                ] [Kamuu] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 13:54:48,750][WARN ][bootstrap                ] [Kamuu] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 13:54:52,844][INFO ][cluster.service          ] [Kamuu] new_master {Kamuu}{zRZ-Cf9dS5W-XAEox_dilw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 13:54:52,946][INFO ][http                     ] [Kamuu] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 13:54:52,946][INFO ][node                     ] [Kamuu] started
+[2016-07-18 13:54:53,122][INFO ][gateway                  ] [Kamuu] recovered [1] indices into cluster_state
+[2016-07-18 13:54:53,561][INFO ][cluster.routing.allocation] [Kamuu] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-18 13:54:59,532][DEBUG][action.search            ] [Kamuu] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:146)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.security.AccessControlException: access denied ("java.io.FilePermission" "C:\Users\aditya.raghav\Documents\employee.ser" "write")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkWrite(SecurityManager.java:979)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:200)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:401)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 13:54:59,535][WARN ][rest.suppressed          ] path: /products/_search, params: {index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:146)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.security.AccessControlException: access denied ("java.io.FilePermission" "C:\Users\aditya.raghav\Documents\employee.ser" "write")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkWrite(SecurityManager.java:979)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:200)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:401)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 13:58:01,066][DEBUG][action.search            ] [Kamuu] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:146)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.security.AccessControlException: access denied ("java.io.FilePermission" "C:\Users\aditya.raghav\Documents\employee.ser" "write")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkWrite(SecurityManager.java:979)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:200)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:401)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 13:58:01,068][WARN ][rest.suppressed          ] path: /products/_search, params: {index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:146)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.security.AccessControlException: access denied ("java.io.FilePermission" "C:\Users\aditya.raghav\Documents\employee.ser" "write")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkWrite(SecurityManager.java:979)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:200)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:401)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 13:58:08,923][INFO ][node                     ] [Martha Johansson] version[5.0.0-alpha3-SNAPSHOT], pid[888], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 13:58:08,924][INFO ][node                     ] [Martha Johansson] initializing ...
+[2016-07-18 13:58:08,929][INFO ][plugins                  ] [Martha Johansson] modules [], plugins []
+[2016-07-18 13:58:08,959][INFO ][env                      ] [Martha Johansson] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 13:58:08,959][INFO ][env                      ] [Martha Johansson] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 13:58:11,356][INFO ][node                     ] [Martha Johansson] initialized
+[2016-07-18 13:58:11,356][INFO ][node                     ] [Martha Johansson] starting ...
+[2016-07-18 13:58:11,521][INFO ][transport                ] [Martha Johansson] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 13:58:11,525][WARN ][bootstrap                ] [Martha Johansson] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 13:58:15,598][INFO ][cluster.service          ] [Martha Johansson] new_master {Martha Johansson}{q_Tql2yBSw2A30TupNINCw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 13:58:15,667][INFO ][http                     ] [Martha Johansson] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 13:58:15,667][INFO ][node                     ] [Martha Johansson] started
+[2016-07-18 13:58:15,821][INFO ][gateway                  ] [Martha Johansson] recovered [1] indices into cluster_state
+[2016-07-18 13:58:16,205][INFO ][cluster.routing.allocation] [Martha Johansson] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-18 14:00:06,221][INFO ][node                     ] [Thunderbolt] version[5.0.0-alpha3-SNAPSHOT], pid[8048], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 14:00:06,222][INFO ][node                     ] [Thunderbolt] initializing ...
+[2016-07-18 14:00:06,230][INFO ][plugins                  ] [Thunderbolt] modules [], plugins []
+[2016-07-18 14:00:06,264][INFO ][env                      ] [Thunderbolt] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 14:00:06,264][INFO ][env                      ] [Thunderbolt] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 14:00:08,693][INFO ][node                     ] [Thunderbolt] initialized
+[2016-07-18 14:00:08,693][INFO ][node                     ] [Thunderbolt] starting ...
+[2016-07-18 14:00:08,859][INFO ][transport                ] [Thunderbolt] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 14:00:08,866][WARN ][bootstrap                ] [Thunderbolt] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 14:00:12,937][INFO ][cluster.service          ] [Thunderbolt] new_master {Thunderbolt}{x-FtC-YwTwCsq0G9JRVp0A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 14:00:13,021][INFO ][http                     ] [Thunderbolt] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 14:00:13,021][INFO ][node                     ] [Thunderbolt] started
+[2016-07-18 14:00:13,234][INFO ][gateway                  ] [Thunderbolt] recovered [1] indices into cluster_state
+[2016-07-18 14:00:13,677][INFO ][cluster.routing.allocation] [Thunderbolt] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-07-18 14:00:20,286][INFO ][node                     ] [Crystal] version[5.0.0-alpha3-SNAPSHOT], pid[7296], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 14:00:20,286][INFO ][node                     ] [Crystal] initializing ...
+[2016-07-18 14:00:20,291][INFO ][plugins                  ] [Crystal] modules [], plugins []
+[2016-07-18 14:00:20,326][INFO ][env                      ] [Crystal] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 14:00:20,326][INFO ][env                      ] [Crystal] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 14:00:22,721][INFO ][node                     ] [Crystal] initialized
+[2016-07-18 14:00:22,721][INFO ][node                     ] [Crystal] starting ...
+[2016-07-18 14:00:22,874][INFO ][transport                ] [Crystal] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 14:00:22,878][WARN ][bootstrap                ] [Crystal] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 14:00:26,947][INFO ][cluster.service          ] [Crystal] new_master {Crystal}{sqgEvZ1tRhSSGBo-bthBaw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 14:00:27,025][INFO ][http                     ] [Crystal] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 14:00:27,025][INFO ][node                     ] [Crystal] started
+[2016-07-18 14:00:27,234][INFO ][gateway                  ] [Crystal] recovered [1] indices into cluster_state
+[2016-07-18 14:00:27,714][INFO ][cluster.routing.allocation] [Crystal] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-18 14:05:32,346][INFO ][node                     ] [Andrew Chord] version[5.0.0-alpha3-SNAPSHOT], pid[2044], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 14:05:32,347][INFO ][node                     ] [Andrew Chord] initializing ...
+[2016-07-18 14:05:32,356][INFO ][plugins                  ] [Andrew Chord] modules [], plugins []
+[2016-07-18 14:05:32,398][INFO ][env                      ] [Andrew Chord] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 14:05:32,398][INFO ][env                      ] [Andrew Chord] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 14:05:34,849][INFO ][node                     ] [Andrew Chord] initialized
+[2016-07-18 14:05:34,849][INFO ][node                     ] [Andrew Chord] starting ...
+[2016-07-18 14:05:35,004][INFO ][transport                ] [Andrew Chord] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 14:05:35,009][WARN ][bootstrap                ] [Andrew Chord] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 14:05:39,110][INFO ][cluster.service          ] [Andrew Chord] new_master {Andrew Chord}{sJU5P3P3SJifjtWmzlgdzw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 14:05:39,185][INFO ][http                     ] [Andrew Chord] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 14:05:39,185][INFO ][node                     ] [Andrew Chord] started
+[2016-07-18 14:05:39,356][INFO ][gateway                  ] [Andrew Chord] recovered [1] indices into cluster_state
+[2016-07-18 14:05:39,786][INFO ][cluster.routing.allocation] [Andrew Chord] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-18 15:50:59,339][INFO ][node                     ] [Mockingbird] version[5.0.0-alpha3-SNAPSHOT], pid[8520], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 15:50:59,339][INFO ][node                     ] [Mockingbird] initializing ...
+[2016-07-18 15:50:59,359][INFO ][plugins                  ] [Mockingbird] modules [], plugins []
+[2016-07-18 15:50:59,407][INFO ][env                      ] [Mockingbird] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 15:50:59,407][INFO ][env                      ] [Mockingbird] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 15:51:09,165][INFO ][node                     ] [Mockingbird] initialized
+[2016-07-18 15:51:09,165][INFO ][node                     ] [Mockingbird] starting ...
+[2016-07-18 15:51:09,397][INFO ][transport                ] [Mockingbird] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 15:51:09,427][WARN ][bootstrap                ] [Mockingbird] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 15:51:13,719][INFO ][cluster.service          ] [Mockingbird] new_master {Mockingbird}{C30Ru7eJQg6LfjOdwqpe7A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 15:51:13,816][INFO ][http                     ] [Mockingbird] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 15:51:13,816][INFO ][node                     ] [Mockingbird] started
+[2016-07-18 15:51:14,519][INFO ][gateway                  ] [Mockingbird] recovered [1] indices into cluster_state
+[2016-07-18 15:51:15,177][INFO ][cluster.routing.allocation] [Mockingbird] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-18 15:55:01,823][INFO ][node                     ] [Debra Whitman] version[5.0.0-alpha3-SNAPSHOT], pid[6344], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 15:55:01,824][INFO ][node                     ] [Debra Whitman] initializing ...
+[2016-07-18 15:55:01,831][INFO ][plugins                  ] [Debra Whitman] modules [], plugins []
+[2016-07-18 15:55:01,863][INFO ][env                      ] [Debra Whitman] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 15:55:01,863][INFO ][env                      ] [Debra Whitman] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 15:55:04,583][INFO ][node                     ] [Debra Whitman] initialized
+[2016-07-18 15:55:04,583][INFO ][node                     ] [Debra Whitman] starting ...
+[2016-07-18 15:55:04,755][INFO ][transport                ] [Debra Whitman] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 15:55:04,767][WARN ][bootstrap                ] [Debra Whitman] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 15:55:08,816][INFO ][cluster.service          ] [Debra Whitman] new_master {Debra Whitman}{SevJ5Y6JR4KyTMRreqbtvw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 15:55:08,883][INFO ][http                     ] [Debra Whitman] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 15:55:08,883][INFO ][node                     ] [Debra Whitman] started
+[2016-07-18 15:55:09,124][INFO ][gateway                  ] [Debra Whitman] recovered [1] indices into cluster_state
+[2016-07-18 15:55:09,666][INFO ][cluster.routing.allocation] [Debra Whitman] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-18 16:00:37,170][INFO ][node                     ] [Hood] version[5.0.0-alpha3-SNAPSHOT], pid[2512], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 16:00:37,171][INFO ][node                     ] [Hood] initializing ...
+[2016-07-18 16:00:37,179][INFO ][plugins                  ] [Hood] modules [], plugins []
+[2016-07-18 16:00:37,218][INFO ][env                      ] [Hood] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 16:00:37,218][INFO ][env                      ] [Hood] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 16:00:39,733][INFO ][node                     ] [Hood] initialized
+[2016-07-18 16:00:39,733][INFO ][node                     ] [Hood] starting ...
+[2016-07-18 16:00:39,897][INFO ][transport                ] [Hood] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 16:00:39,904][WARN ][bootstrap                ] [Hood] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 16:00:44,006][INFO ][cluster.service          ] [Hood] new_master {Hood}{gTpHqAdxRj2sCUX-hG3GBw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 16:00:44,082][INFO ][http                     ] [Hood] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 16:00:44,082][INFO ][node                     ] [Hood] started
+[2016-07-18 16:00:44,260][INFO ][gateway                  ] [Hood] recovered [1] indices into cluster_state
+[2016-07-18 16:00:44,706][INFO ][cluster.routing.allocation] [Hood] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-07-18 16:00:49,210][DEBUG][action.search            ] [Hood] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassCastException: java.util.ArrayList cannot be cast to org.elasticsearch.common.xcontent.ToXContent
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:401)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 16:00:49,214][WARN ][rest.suppressed          ] path: /products/_search, params: {index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassCastException: java.util.ArrayList cannot be cast to org.elasticsearch.common.xcontent.ToXContent
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:401)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 16:05:28,268][INFO ][node                     ] [Wallflower] version[5.0.0-alpha3-SNAPSHOT], pid[4516], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 16:05:28,269][INFO ][node                     ] [Wallflower] initializing ...
+[2016-07-18 16:05:28,277][INFO ][plugins                  ] [Wallflower] modules [], plugins []
+[2016-07-18 16:05:28,315][INFO ][env                      ] [Wallflower] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 16:05:28,315][INFO ][env                      ] [Wallflower] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 16:05:30,822][INFO ][node                     ] [Wallflower] initialized
+[2016-07-18 16:05:30,822][INFO ][node                     ] [Wallflower] starting ...
+[2016-07-18 16:05:31,003][INFO ][transport                ] [Wallflower] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 16:05:31,011][WARN ][bootstrap                ] [Wallflower] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 16:05:35,107][INFO ][cluster.service          ] [Wallflower] new_master {Wallflower}{DWkO-KhZQreNmfpDTWGoOQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 16:05:35,184][INFO ][http                     ] [Wallflower] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 16:05:35,184][INFO ][node                     ] [Wallflower] started
+[2016-07-18 16:05:35,374][INFO ][gateway                  ] [Wallflower] recovered [1] indices into cluster_state
+[2016-07-18 16:05:35,808][INFO ][cluster.routing.allocation] [Wallflower] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-18 16:06:01,020][DEBUG][action.search            ] [Wallflower] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassCastException: java.util.ArrayList cannot be cast to org.elasticsearch.common.xcontent.ToXContent
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:401)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 16:06:01,023][WARN ][rest.suppressed          ] path: /products/_search, params: {index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassCastException: java.util.ArrayList cannot be cast to org.elasticsearch.common.xcontent.ToXContent
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:401)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 16:07:05,507][INFO ][node                     ] [the Living Colossus It] version[5.0.0-alpha3-SNAPSHOT], pid[8412], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 16:07:05,508][INFO ][node                     ] [the Living Colossus It] initializing ...
+[2016-07-18 16:07:05,514][INFO ][plugins                  ] [the Living Colossus It] modules [], plugins []
+[2016-07-18 16:07:05,546][INFO ][env                      ] [the Living Colossus It] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 16:07:05,546][INFO ][env                      ] [the Living Colossus It] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 16:07:08,007][INFO ][node                     ] [the Living Colossus It] initialized
+[2016-07-18 16:07:08,007][INFO ][node                     ] [the Living Colossus It] starting ...
+[2016-07-18 16:07:08,169][INFO ][transport                ] [the Living Colossus It] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 16:07:08,174][WARN ][bootstrap                ] [the Living Colossus It] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 16:07:12,279][INFO ][cluster.service          ] [the Living Colossus It] new_master {the Living Colossus It}{o-VMj97nQH60oNyOcZ6cKQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 16:07:12,380][INFO ][http                     ] [the Living Colossus It] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 16:07:12,380][INFO ][node                     ] [the Living Colossus It] started
+[2016-07-18 16:07:12,569][INFO ][gateway                  ] [the Living Colossus It] recovered [1] indices into cluster_state
+[2016-07-18 16:07:13,000][INFO ][cluster.routing.allocation] [the Living Colossus It] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-18 16:14:41,111][INFO ][node                     ] [Awesome Android] version[5.0.0-alpha3-SNAPSHOT], pid[4640], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 16:14:41,112][INFO ][node                     ] [Awesome Android] initializing ...
+[2016-07-18 16:14:41,119][INFO ][plugins                  ] [Awesome Android] modules [], plugins []
+[2016-07-18 16:14:41,151][INFO ][env                      ] [Awesome Android] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 16:14:41,152][INFO ][env                      ] [Awesome Android] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 16:14:43,636][INFO ][node                     ] [Awesome Android] initialized
+[2016-07-18 16:14:43,637][INFO ][node                     ] [Awesome Android] starting ...
+[2016-07-18 16:14:43,792][INFO ][transport                ] [Awesome Android] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 16:14:43,796][WARN ][bootstrap                ] [Awesome Android] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 16:14:47,892][INFO ][cluster.service          ] [Awesome Android] new_master {Awesome Android}{CBVEThHJRRibrW_BW4mIEg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 16:14:47,988][INFO ][http                     ] [Awesome Android] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 16:14:47,989][INFO ][node                     ] [Awesome Android] started
+[2016-07-18 16:14:48,176][INFO ][gateway                  ] [Awesome Android] recovered [1] indices into cluster_state
+[2016-07-18 16:14:48,598][INFO ][cluster.routing.allocation] [Awesome Android] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-18 16:16:41,368][INFO ][node                     ] [Dagger] version[5.0.0-alpha3-SNAPSHOT], pid[4648], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 16:16:41,368][INFO ][node                     ] [Dagger] initializing ...
+[2016-07-18 16:16:41,374][INFO ][plugins                  ] [Dagger] modules [], plugins []
+[2016-07-18 16:16:41,404][INFO ][env                      ] [Dagger] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 16:16:41,404][INFO ][env                      ] [Dagger] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 16:16:43,960][INFO ][node                     ] [Dagger] initialized
+[2016-07-18 16:16:43,960][INFO ][node                     ] [Dagger] starting ...
+[2016-07-18 16:16:44,124][INFO ][transport                ] [Dagger] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 16:16:44,129][WARN ][bootstrap                ] [Dagger] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 16:16:48,222][INFO ][cluster.service          ] [Dagger] new_master {Dagger}{za5Gaeh0QAmpEiYrUkusKw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 16:16:48,312][INFO ][http                     ] [Dagger] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 16:16:48,312][INFO ][node                     ] [Dagger] started
+[2016-07-18 16:16:48,490][INFO ][gateway                  ] [Dagger] recovered [1] indices into cluster_state
+[2016-07-18 16:16:48,914][INFO ][cluster.routing.allocation] [Dagger] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-07-18 16:17:22,906][INFO ][node                     ] [Raa of the Caves] version[5.0.0-alpha3-SNAPSHOT], pid[6348], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 16:17:22,906][INFO ][node                     ] [Raa of the Caves] initializing ...
+[2016-07-18 16:17:22,914][INFO ][plugins                  ] [Raa of the Caves] modules [], plugins []
+[2016-07-18 16:17:22,945][INFO ][env                      ] [Raa of the Caves] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 16:17:22,945][INFO ][env                      ] [Raa of the Caves] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 16:17:25,380][INFO ][node                     ] [Raa of the Caves] initialized
+[2016-07-18 16:17:25,380][INFO ][node                     ] [Raa of the Caves] starting ...
+[2016-07-18 16:17:25,548][INFO ][transport                ] [Raa of the Caves] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 16:17:25,556][WARN ][bootstrap                ] [Raa of the Caves] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 16:17:29,659][INFO ][cluster.service          ] [Raa of the Caves] new_master {Raa of the Caves}{b1hpb1fRSQiQzH6Vwc5mzQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 16:17:29,738][INFO ][http                     ] [Raa of the Caves] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 16:17:29,738][INFO ][node                     ] [Raa of the Caves] started
+[2016-07-18 16:17:29,923][INFO ][gateway                  ] [Raa of the Caves] recovered [1] indices into cluster_state
+[2016-07-18 16:17:30,357][INFO ][cluster.routing.allocation] [Raa of the Caves] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-07-18 16:18:49,367][INFO ][node                     ] [Leo] version[5.0.0-alpha3-SNAPSHOT], pid[1888], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 16:18:49,368][INFO ][node                     ] [Leo] initializing ...
+[2016-07-18 16:18:49,374][INFO ][plugins                  ] [Leo] modules [], plugins []
+[2016-07-18 16:18:49,402][INFO ][env                      ] [Leo] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 16:18:49,402][INFO ][env                      ] [Leo] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 16:18:51,831][INFO ][node                     ] [Leo] initialized
+[2016-07-18 16:18:51,831][INFO ][node                     ] [Leo] starting ...
+[2016-07-18 16:18:52,010][INFO ][transport                ] [Leo] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 16:18:52,016][WARN ][bootstrap                ] [Leo] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 16:18:56,139][INFO ][cluster.service          ] [Leo] new_master {Leo}{CcCehYaES6-f6XZT7EiW9g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 16:18:56,239][INFO ][http                     ] [Leo] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 16:18:56,239][INFO ][node                     ] [Leo] started
+[2016-07-18 16:18:56,427][INFO ][gateway                  ] [Leo] recovered [1] indices into cluster_state
+[2016-07-18 16:18:56,903][INFO ][cluster.routing.allocation] [Leo] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-07-18 16:31:53,244][INFO ][node                     ] [Xorr the God-Jewel] version[5.0.0-alpha3-SNAPSHOT], pid[5704], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 16:31:53,245][INFO ][node                     ] [Xorr the God-Jewel] initializing ...
+[2016-07-18 16:31:53,253][INFO ][plugins                  ] [Xorr the God-Jewel] modules [], plugins []
+[2016-07-18 16:31:53,294][INFO ][env                      ] [Xorr the God-Jewel] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 16:31:53,294][INFO ][env                      ] [Xorr the God-Jewel] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 16:31:55,798][INFO ][node                     ] [Xorr the God-Jewel] initialized
+[2016-07-18 16:31:55,798][INFO ][node                     ] [Xorr the God-Jewel] starting ...
+[2016-07-18 16:31:55,973][INFO ][transport                ] [Xorr the God-Jewel] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 16:31:55,977][WARN ][bootstrap                ] [Xorr the God-Jewel] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 16:32:00,083][INFO ][cluster.service          ] [Xorr the God-Jewel] new_master {Xorr the God-Jewel}{pA7Crb7mQ8-WnPdV0K-7lg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 16:32:00,176][INFO ][http                     ] [Xorr the God-Jewel] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 16:32:00,176][INFO ][node                     ] [Xorr the God-Jewel] started
+[2016-07-18 16:32:00,341][INFO ][gateway                  ] [Xorr the God-Jewel] recovered [1] indices into cluster_state
+[2016-07-18 16:32:00,790][INFO ][cluster.routing.allocation] [Xorr the God-Jewel] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-07-18 16:46:15,088][INFO ][node                     ] [Eleggua] version[5.0.0-alpha3-SNAPSHOT], pid[1296], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 16:46:15,089][INFO ][node                     ] [Eleggua] initializing ...
+[2016-07-18 16:46:15,096][INFO ][plugins                  ] [Eleggua] modules [], plugins []
+[2016-07-18 16:46:15,126][INFO ][env                      ] [Eleggua] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 16:46:15,126][INFO ][env                      ] [Eleggua] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 16:46:17,564][INFO ][node                     ] [Eleggua] initialized
+[2016-07-18 16:46:17,564][INFO ][node                     ] [Eleggua] starting ...
+[2016-07-18 16:46:17,728][INFO ][transport                ] [Eleggua] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 16:46:17,733][WARN ][bootstrap                ] [Eleggua] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 16:46:21,826][INFO ][cluster.service          ] [Eleggua] new_master {Eleggua}{AnuDvX6ZT1udLeEzyANU1A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 16:46:21,893][INFO ][http                     ] [Eleggua] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 16:46:21,893][INFO ][node                     ] [Eleggua] started
+[2016-07-18 16:46:22,076][INFO ][gateway                  ] [Eleggua] recovered [1] indices into cluster_state
+[2016-07-18 16:46:22,513][INFO ][cluster.routing.allocation] [Eleggua] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-07-18 17:12:47,390][INFO ][node                     ] [Jim Hammond] version[5.0.0-alpha3-SNAPSHOT], pid[3032], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 17:12:47,391][INFO ][node                     ] [Jim Hammond] initializing ...
+[2016-07-18 17:12:47,399][INFO ][plugins                  ] [Jim Hammond] modules [], plugins []
+[2016-07-18 17:12:47,430][INFO ][env                      ] [Jim Hammond] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 17:12:47,430][INFO ][env                      ] [Jim Hammond] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 17:12:49,848][INFO ][node                     ] [Jim Hammond] initialized
+[2016-07-18 17:12:49,848][INFO ][node                     ] [Jim Hammond] starting ...
+[2016-07-18 17:12:50,005][INFO ][transport                ] [Jim Hammond] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 17:12:50,009][WARN ][bootstrap                ] [Jim Hammond] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 17:12:54,116][INFO ][cluster.service          ] [Jim Hammond] new_master {Jim Hammond}{C80uqiXXTx-sEW0T_CQK4A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 17:12:54,208][INFO ][http                     ] [Jim Hammond] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 17:12:54,208][INFO ][node                     ] [Jim Hammond] started
+[2016-07-18 17:12:54,386][INFO ][gateway                  ] [Jim Hammond] recovered [1] indices into cluster_state
+[2016-07-18 17:12:54,793][INFO ][cluster.routing.allocation] [Jim Hammond] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-07-18 17:15:30,372][INFO ][node                     ] [Arcade] version[5.0.0-alpha3-SNAPSHOT], pid[8492], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 17:15:30,373][INFO ][node                     ] [Arcade] initializing ...
+[2016-07-18 17:15:30,380][INFO ][plugins                  ] [Arcade] modules [], plugins []
+[2016-07-18 17:15:30,414][INFO ][env                      ] [Arcade] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 17:15:30,414][INFO ][env                      ] [Arcade] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 17:15:32,885][INFO ][node                     ] [Arcade] initialized
+[2016-07-18 17:15:32,885][INFO ][node                     ] [Arcade] starting ...
+[2016-07-18 17:15:33,059][INFO ][transport                ] [Arcade] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 17:15:33,064][WARN ][bootstrap                ] [Arcade] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 17:15:37,156][INFO ][cluster.service          ] [Arcade] new_master {Arcade}{estYTw2dR0Gk5N6Tp9uubg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 17:15:37,245][INFO ][http                     ] [Arcade] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 17:15:37,245][INFO ][node                     ] [Arcade] started
+[2016-07-18 17:15:37,410][INFO ][gateway                  ] [Arcade] recovered [1] indices into cluster_state
+[2016-07-18 17:15:37,832][INFO ][cluster.routing.allocation] [Arcade] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-18 17:17:10,828][INFO ][node                     ] [Sub-Mariner] version[5.0.0-alpha3-SNAPSHOT], pid[4968], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 17:17:10,828][INFO ][node                     ] [Sub-Mariner] initializing ...
+[2016-07-18 17:17:10,834][INFO ][plugins                  ] [Sub-Mariner] modules [], plugins []
+[2016-07-18 17:17:10,870][INFO ][env                      ] [Sub-Mariner] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 17:17:10,871][INFO ][env                      ] [Sub-Mariner] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 17:17:13,320][INFO ][node                     ] [Sub-Mariner] initialized
+[2016-07-18 17:17:13,320][INFO ][node                     ] [Sub-Mariner] starting ...
+[2016-07-18 17:17:13,473][INFO ][transport                ] [Sub-Mariner] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 17:17:13,481][WARN ][bootstrap                ] [Sub-Mariner] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 17:17:17,581][INFO ][cluster.service          ] [Sub-Mariner] new_master {Sub-Mariner}{L0Qr3gxHQt64Uc24QY_8dg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 17:17:17,661][INFO ][http                     ] [Sub-Mariner] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 17:17:17,662][INFO ][node                     ] [Sub-Mariner] started
+[2016-07-18 17:17:17,843][INFO ][gateway                  ] [Sub-Mariner] recovered [1] indices into cluster_state
+[2016-07-18 17:17:18,289][INFO ][cluster.routing.allocation] [Sub-Mariner] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-18 17:17:34,268][DEBUG][action.search            ] [Sub-Mariner] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.elasticsearch.common.xcontent.XContentBuilder.field(XContentBuilder.java:345)
+	at org.elasticsearch.search.internal.InternalSearchHit.toXContent(InternalSearchHit.java:453)
+	at org.elasticsearch.search.internal.InternalSearchHits.toXContent(InternalSearchHits.java:182)
+	at org.elasticsearch.common.Strings.toString(Strings.java:879)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:472)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 17:17:34,271][WARN ][rest.suppressed          ] path: /products/_search, params: {index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.elasticsearch.common.xcontent.XContentBuilder.field(XContentBuilder.java:345)
+	at org.elasticsearch.search.internal.InternalSearchHit.toXContent(InternalSearchHit.java:453)
+	at org.elasticsearch.search.internal.InternalSearchHits.toXContent(InternalSearchHits.java:182)
+	at org.elasticsearch.common.Strings.toString(Strings.java:879)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:472)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 17:19:53,209][INFO ][node                     ] [Madeline Joyce] version[5.0.0-alpha3-SNAPSHOT], pid[9180], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 17:19:53,210][INFO ][node                     ] [Madeline Joyce] initializing ...
+[2016-07-18 17:19:53,215][INFO ][plugins                  ] [Madeline Joyce] modules [], plugins []
+[2016-07-18 17:19:53,242][INFO ][env                      ] [Madeline Joyce] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 17:19:53,242][INFO ][env                      ] [Madeline Joyce] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 17:19:55,705][INFO ][node                     ] [Madeline Joyce] initialized
+[2016-07-18 17:19:55,705][INFO ][node                     ] [Madeline Joyce] starting ...
+[2016-07-18 17:19:55,868][INFO ][transport                ] [Madeline Joyce] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 17:19:55,876][WARN ][bootstrap                ] [Madeline Joyce] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 17:19:59,965][INFO ][cluster.service          ] [Madeline Joyce] new_master {Madeline Joyce}{FAzKj1nVRPS7AHTmxUe_7w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 17:20:00,060][INFO ][http                     ] [Madeline Joyce] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 17:20:00,061][INFO ][node                     ] [Madeline Joyce] started
+[2016-07-18 17:20:00,224][INFO ][gateway                  ] [Madeline Joyce] recovered [1] indices into cluster_state
+[2016-07-18 17:20:00,603][INFO ][cluster.routing.allocation] [Madeline Joyce] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-07-18 17:20:12,043][DEBUG][action.search            ] [Madeline Joyce] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.elasticsearch.common.xcontent.XContentBuilder.field(XContentBuilder.java:345)
+	at org.elasticsearch.search.internal.InternalSearchHit.toXContent(InternalSearchHit.java:453)
+	at org.elasticsearch.search.internal.InternalSearchHits.toXContent(InternalSearchHits.java:182)
+	at org.elasticsearch.common.Strings.toString(Strings.java:879)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:472)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 17:20:12,046][WARN ][rest.suppressed          ] path: /products/_search, params: {index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.elasticsearch.common.xcontent.XContentBuilder.field(XContentBuilder.java:345)
+	at org.elasticsearch.search.internal.InternalSearchHit.toXContent(InternalSearchHit.java:453)
+	at org.elasticsearch.search.internal.InternalSearchHits.toXContent(InternalSearchHits.java:182)
+	at org.elasticsearch.common.Strings.toString(Strings.java:879)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:472)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 17:22:05,263][INFO ][node                     ] [Yuriko Oyama] version[5.0.0-alpha3-SNAPSHOT], pid[9112], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 17:22:05,263][INFO ][node                     ] [Yuriko Oyama] initializing ...
+[2016-07-18 17:22:05,270][INFO ][plugins                  ] [Yuriko Oyama] modules [], plugins []
+[2016-07-18 17:22:05,301][INFO ][env                      ] [Yuriko Oyama] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 17:22:05,302][INFO ][env                      ] [Yuriko Oyama] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 17:22:07,734][INFO ][node                     ] [Yuriko Oyama] initialized
+[2016-07-18 17:22:07,734][INFO ][node                     ] [Yuriko Oyama] starting ...
+[2016-07-18 17:22:07,895][INFO ][transport                ] [Yuriko Oyama] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 17:22:07,899][WARN ][bootstrap                ] [Yuriko Oyama] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 17:22:12,000][INFO ][cluster.service          ] [Yuriko Oyama] new_master {Yuriko Oyama}{MQXZxq1rTQOmDZr_ai5P5Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 17:22:12,079][INFO ][http                     ] [Yuriko Oyama] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 17:22:12,080][INFO ][node                     ] [Yuriko Oyama] started
+[2016-07-18 17:22:12,243][INFO ][gateway                  ] [Yuriko Oyama] recovered [1] indices into cluster_state
+[2016-07-18 17:22:12,696][INFO ][cluster.routing.allocation] [Yuriko Oyama] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-07-18 17:22:15,834][DEBUG][action.search            ] [Yuriko Oyama] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.elasticsearch.common.xcontent.XContentBuilder.field(XContentBuilder.java:345)
+	at org.elasticsearch.search.internal.InternalSearchHit.toXContent(InternalSearchHit.java:453)
+	at org.elasticsearch.search.internal.InternalSearchHits.toXContent(InternalSearchHits.java:182)
+	at org.elasticsearch.common.Strings.toString(Strings.java:879)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:472)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 17:22:15,837][WARN ][rest.suppressed          ] path: /products/_search, params: {index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.elasticsearch.common.xcontent.XContentBuilder.field(XContentBuilder.java:345)
+	at org.elasticsearch.search.internal.InternalSearchHit.toXContent(InternalSearchHit.java:453)
+	at org.elasticsearch.search.internal.InternalSearchHits.toXContent(InternalSearchHits.java:182)
+	at org.elasticsearch.common.Strings.toString(Strings.java:879)
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:472)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-18 17:28:24,780][INFO ][node                     ] [Scanner] version[5.0.0-alpha3-SNAPSHOT], pid[3032], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 17:28:24,780][INFO ][node                     ] [Scanner] initializing ...
+[2016-07-18 17:28:24,788][INFO ][plugins                  ] [Scanner] modules [], plugins []
+[2016-07-18 17:28:24,823][INFO ][env                      ] [Scanner] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 17:28:24,823][INFO ][env                      ] [Scanner] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 17:28:27,345][INFO ][node                     ] [Scanner] initialized
+[2016-07-18 17:28:27,345][INFO ][node                     ] [Scanner] starting ...
+[2016-07-18 17:28:27,503][INFO ][transport                ] [Scanner] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 17:28:27,508][WARN ][bootstrap                ] [Scanner] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 17:28:31,601][INFO ][cluster.service          ] [Scanner] new_master {Scanner}{q4qufzbYSyO6UmHe1mEQlg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 17:28:31,680][INFO ][http                     ] [Scanner] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 17:28:31,680][INFO ][node                     ] [Scanner] started
+[2016-07-18 17:28:31,849][INFO ][gateway                  ] [Scanner] recovered [1] indices into cluster_state
+[2016-07-18 17:28:32,288][INFO ][cluster.routing.allocation] [Scanner] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-07-18 17:29:44,110][INFO ][node                     ] [Chen Lu] version[5.0.0-alpha3-SNAPSHOT], pid[2424], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 17:29:44,111][INFO ][node                     ] [Chen Lu] initializing ...
+[2016-07-18 17:29:44,119][INFO ][plugins                  ] [Chen Lu] modules [], plugins []
+[2016-07-18 17:29:44,150][INFO ][env                      ] [Chen Lu] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 17:29:44,150][INFO ][env                      ] [Chen Lu] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 17:29:46,629][INFO ][node                     ] [Chen Lu] initialized
+[2016-07-18 17:29:46,629][INFO ][node                     ] [Chen Lu] starting ...
+[2016-07-18 17:29:46,788][INFO ][transport                ] [Chen Lu] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 17:29:46,795][WARN ][bootstrap                ] [Chen Lu] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 17:29:50,854][INFO ][cluster.service          ] [Chen Lu] new_master {Chen Lu}{nwWmYHSmQwiOmdJpvj9l7A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 17:29:50,932][INFO ][http                     ] [Chen Lu] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 17:29:50,932][INFO ][node                     ] [Chen Lu] started
+[2016-07-18 17:30:02,325][INFO ][node                     ] [Hyperkind] version[5.0.0-alpha3-SNAPSHOT], pid[7640], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 17:30:02,326][INFO ][node                     ] [Hyperkind] initializing ...
+[2016-07-18 17:30:02,331][INFO ][plugins                  ] [Hyperkind] modules [], plugins []
+[2016-07-18 17:30:02,364][INFO ][env                      ] [Hyperkind] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 17:30:02,364][INFO ][env                      ] [Hyperkind] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 17:30:04,882][INFO ][node                     ] [Hyperkind] initialized
+[2016-07-18 17:30:04,882][INFO ][node                     ] [Hyperkind] starting ...
+[2016-07-18 17:30:05,050][INFO ][transport                ] [Hyperkind] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 17:30:05,055][WARN ][bootstrap                ] [Hyperkind] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 17:30:09,163][INFO ][cluster.service          ] [Hyperkind] new_master {Hyperkind}{Ao_DjgwfREu_AGZjOQD16g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 17:30:09,256][INFO ][http                     ] [Hyperkind] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 17:30:09,256][INFO ][node                     ] [Hyperkind] started
+[2016-07-18 17:30:09,437][INFO ][gateway                  ] [Hyperkind] recovered [1] indices into cluster_state
+[2016-07-18 17:30:09,867][INFO ][cluster.routing.allocation] [Hyperkind] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-18 17:41:28,296][INFO ][node                     ] [Lyja] version[5.0.0-alpha3-SNAPSHOT], pid[6368], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 17:41:28,296][INFO ][node                     ] [Lyja] initializing ...
+[2016-07-18 17:41:28,303][INFO ][plugins                  ] [Lyja] modules [], plugins []
+[2016-07-18 17:41:28,332][INFO ][env                      ] [Lyja] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 17:41:28,332][INFO ][env                      ] [Lyja] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 17:41:30,787][INFO ][node                     ] [Lyja] initialized
+[2016-07-18 17:41:30,787][INFO ][node                     ] [Lyja] starting ...
+[2016-07-18 17:41:30,947][INFO ][transport                ] [Lyja] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 17:41:30,952][WARN ][bootstrap                ] [Lyja] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 17:41:35,038][INFO ][cluster.service          ] [Lyja] new_master {Lyja}{TyRlJL98SmCLLnQ_6axm0w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 17:41:35,109][INFO ][http                     ] [Lyja] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 17:41:35,109][INFO ][node                     ] [Lyja] started
+[2016-07-18 17:41:35,288][INFO ][gateway                  ] [Lyja] recovered [1] indices into cluster_state
+[2016-07-18 17:41:35,710][INFO ][cluster.routing.allocation] [Lyja] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-07-18 17:43:18,935][INFO ][node                     ] [Toad] version[5.0.0-alpha3-SNAPSHOT], pid[1176], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 17:43:18,935][INFO ][node                     ] [Toad] initializing ...
+[2016-07-18 17:43:18,941][INFO ][plugins                  ] [Toad] modules [], plugins []
+[2016-07-18 17:43:18,974][INFO ][env                      ] [Toad] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 17:43:18,975][INFO ][env                      ] [Toad] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 17:43:21,426][INFO ][node                     ] [Toad] initialized
+[2016-07-18 17:43:21,427][INFO ][node                     ] [Toad] starting ...
+[2016-07-18 17:43:21,580][INFO ][transport                ] [Toad] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 17:43:21,587][WARN ][bootstrap                ] [Toad] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 17:43:25,691][INFO ][cluster.service          ] [Toad] new_master {Toad}{iG9aIkRdRCid7LYjG5LOaA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 17:43:25,777][INFO ][http                     ] [Toad] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 17:43:25,777][INFO ][node                     ] [Toad] started
+[2016-07-18 17:43:25,971][INFO ][gateway                  ] [Toad] recovered [1] indices into cluster_state
+[2016-07-18 17:43:26,384][INFO ][cluster.routing.allocation] [Toad] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-18 17:44:03,270][INFO ][node                     ] [Susan Richards] version[5.0.0-alpha3-SNAPSHOT], pid[8096], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 17:44:03,270][INFO ][node                     ] [Susan Richards] initializing ...
+[2016-07-18 17:44:03,277][INFO ][plugins                  ] [Susan Richards] modules [], plugins []
+[2016-07-18 17:44:03,310][INFO ][env                      ] [Susan Richards] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 17:44:03,311][INFO ][env                      ] [Susan Richards] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 17:44:05,678][INFO ][node                     ] [Susan Richards] initialized
+[2016-07-18 17:44:05,678][INFO ][node                     ] [Susan Richards] starting ...
+[2016-07-18 17:44:05,836][INFO ][transport                ] [Susan Richards] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 17:44:05,843][WARN ][bootstrap                ] [Susan Richards] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 17:44:09,890][INFO ][cluster.service          ] [Susan Richards] new_master {Susan Richards}{Kv5_Ivk3RCqEkdhYbADZqQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 17:44:09,950][INFO ][http                     ] [Susan Richards] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 17:44:09,950][INFO ][node                     ] [Susan Richards] started
+[2016-07-18 17:44:10,140][INFO ][gateway                  ] [Susan Richards] recovered [1] indices into cluster_state
+[2016-07-18 17:44:10,552][INFO ][cluster.routing.allocation] [Susan Richards] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-18 17:55:39,012][INFO ][node                     ] [Delphi] version[5.0.0-alpha3-SNAPSHOT], pid[8504], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 17:55:39,013][INFO ][node                     ] [Delphi] initializing ...
+[2016-07-18 17:55:39,021][INFO ][plugins                  ] [Delphi] modules [], plugins []
+[2016-07-18 17:55:39,057][INFO ][env                      ] [Delphi] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 17:55:39,057][INFO ][env                      ] [Delphi] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 17:55:41,481][INFO ][node                     ] [Delphi] initialized
+[2016-07-18 17:55:41,482][INFO ][node                     ] [Delphi] starting ...
+[2016-07-18 17:55:41,641][INFO ][transport                ] [Delphi] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 17:55:41,650][WARN ][bootstrap                ] [Delphi] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 17:55:45,741][INFO ][cluster.service          ] [Delphi] new_master {Delphi}{i3tmcSA2Tg-EUVt4zmLWtg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 17:55:45,818][INFO ][http                     ] [Delphi] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 17:55:45,819][INFO ][node                     ] [Delphi] started
+[2016-07-18 17:55:45,975][INFO ][gateway                  ] [Delphi] recovered [1] indices into cluster_state
+[2016-07-18 17:55:46,379][INFO ][cluster.routing.allocation] [Delphi] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-07-18 19:05:11,733][INFO ][node                     ] [Super-Nova] version[5.0.0-alpha3-SNAPSHOT], pid[4892], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-18 19:05:11,734][INFO ][node                     ] [Super-Nova] initializing ...
+[2016-07-18 19:05:11,741][INFO ][plugins                  ] [Super-Nova] modules [], plugins []
+[2016-07-18 19:05:11,776][INFO ][env                      ] [Super-Nova] using [1] data paths, mounts [[OS (C:)]], net usable_space [74gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-18 19:05:11,776][INFO ][env                      ] [Super-Nova] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-18 19:05:14,300][INFO ][node                     ] [Super-Nova] initialized
+[2016-07-18 19:05:14,300][INFO ][node                     ] [Super-Nova] starting ...
+[2016-07-18 19:05:14,474][INFO ][transport                ] [Super-Nova] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-18 19:05:14,483][WARN ][bootstrap                ] [Super-Nova] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-18 19:05:18,581][INFO ][cluster.service          ] [Super-Nova] new_master {Super-Nova}{Y2pqaZK5Sm62aeq61_PxBw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-18 19:05:18,673][INFO ][http                     ] [Super-Nova] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-18 19:05:18,674][INFO ][node                     ] [Super-Nova] started
+[2016-07-18 19:05:18,848][INFO ][gateway                  ] [Super-Nova] recovered [1] indices into cluster_state
+[2016-07-18 19:05:19,300][INFO ][cluster.routing.allocation] [Super-Nova] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).

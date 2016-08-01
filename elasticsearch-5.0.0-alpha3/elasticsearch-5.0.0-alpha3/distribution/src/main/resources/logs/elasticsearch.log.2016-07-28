@@ -1,0 +1,398 @@
+[2016-07-28 09:34:22,860][INFO ][node                     ] [Yellowjacket] version[5.0.0-alpha3-SNAPSHOT], pid[10152], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 09:34:22,862][INFO ][node                     ] [Yellowjacket] initializing ...
+[2016-07-28 09:34:22,883][INFO ][plugins                  ] [Yellowjacket] modules [], plugins []
+[2016-07-28 09:34:22,936][INFO ][env                      ] [Yellowjacket] using [1] data paths, mounts [[OS (C:)]], net usable_space [77.2gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 09:34:22,936][INFO ][env                      ] [Yellowjacket] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 09:34:33,022][INFO ][node                     ] [Yellowjacket] initialized
+[2016-07-28 09:34:33,022][INFO ][node                     ] [Yellowjacket] starting ...
+[2016-07-28 09:34:33,293][INFO ][transport                ] [Yellowjacket] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 09:34:33,323][WARN ][bootstrap                ] [Yellowjacket] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 09:34:37,600][INFO ][cluster.service          ] [Yellowjacket] new_master {Yellowjacket}{I6pFnz45R1GVHqq34Krm7w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 09:34:37,712][INFO ][http                     ] [Yellowjacket] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 09:34:37,712][INFO ][node                     ] [Yellowjacket] started
+[2016-07-28 09:34:38,434][WARN ][gateway                  ] [Yellowjacket] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 09:34:38,434][INFO ][gateway                  ] [Yellowjacket] recovered [1] indices into cluster_state
+[2016-07-28 09:34:38,785][WARN ][gateway                  ] [Yellowjacket] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 09:34:39,282][WARN ][gateway                  ] [Yellowjacket] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 09:34:39,360][INFO ][cluster.routing.allocation] [Yellowjacket] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-07-28 09:34:39,362][WARN ][gateway                  ] [Yellowjacket] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 10:06:01,443][INFO ][node                     ] [Thog] version[5.0.0-alpha3-SNAPSHOT], pid[7328], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 10:06:01,444][INFO ][node                     ] [Thog] initializing ...
+[2016-07-28 10:06:01,449][INFO ][plugins                  ] [Thog] modules [], plugins []
+[2016-07-28 10:06:01,481][INFO ][env                      ] [Thog] using [1] data paths, mounts [[OS (C:)]], net usable_space [77.2gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 10:06:01,482][INFO ][env                      ] [Thog] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 10:06:04,217][INFO ][node                     ] [Thog] initialized
+[2016-07-28 10:06:04,217][INFO ][node                     ] [Thog] starting ...
+[2016-07-28 10:06:04,380][INFO ][transport                ] [Thog] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 10:06:04,385][WARN ][bootstrap                ] [Thog] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 10:06:08,492][INFO ][cluster.service          ] [Thog] new_master {Thog}{sI1MESJJSTmstKpkxuCFUw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 10:06:08,585][INFO ][http                     ] [Thog] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 10:06:08,585][INFO ][node                     ] [Thog] started
+[2016-07-28 10:06:08,802][WARN ][gateway                  ] [Thog] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 10:06:08,802][INFO ][gateway                  ] [Thog] recovered [1] indices into cluster_state
+[2016-07-28 10:06:09,002][WARN ][gateway                  ] [Thog] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 10:06:09,310][WARN ][gateway                  ] [Thog] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 10:06:09,359][INFO ][cluster.routing.allocation] [Thog] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-28 10:06:09,362][WARN ][gateway                  ] [Thog] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 10:40:23,695][INFO ][node                     ] [Orb] version[5.0.0-alpha3-SNAPSHOT], pid[11476], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 10:40:23,695][INFO ][node                     ] [Orb] initializing ...
+[2016-07-28 10:40:23,703][INFO ][plugins                  ] [Orb] modules [], plugins []
+[2016-07-28 10:40:23,743][INFO ][env                      ] [Orb] using [1] data paths, mounts [[OS (C:)]], net usable_space [77.2gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 10:40:23,743][INFO ][env                      ] [Orb] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 10:40:26,319][INFO ][node                     ] [Orb] initialized
+[2016-07-28 10:40:26,319][INFO ][node                     ] [Orb] starting ...
+[2016-07-28 10:40:26,473][INFO ][transport                ] [Orb] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 10:40:26,481][WARN ][bootstrap                ] [Orb] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 10:40:30,584][INFO ][cluster.service          ] [Orb] new_master {Orb}{zmogYuZ8RgGwnN4QDA12mw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 10:40:30,664][INFO ][http                     ] [Orb] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 10:40:30,664][INFO ][node                     ] [Orb] started
+[2016-07-28 10:40:30,823][WARN ][gateway                  ] [Orb] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 10:40:30,824][INFO ][gateway                  ] [Orb] recovered [1] indices into cluster_state
+[2016-07-28 10:40:30,963][WARN ][gateway                  ] [Orb] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 10:40:31,200][WARN ][gateway                  ] [Orb] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 10:40:31,227][INFO ][cluster.routing.allocation] [Orb] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-07-28 10:40:31,230][WARN ][gateway                  ] [Orb] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:03:27,921][INFO ][node                     ] [Jacob "Jake" Fury] version[5.0.0-alpha3-SNAPSHOT], pid[5100], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 11:03:27,922][INFO ][node                     ] [Jacob "Jake" Fury] initializing ...
+[2016-07-28 11:03:27,929][INFO ][plugins                  ] [Jacob "Jake" Fury] modules [], plugins []
+[2016-07-28 11:03:27,966][INFO ][env                      ] [Jacob "Jake" Fury] using [1] data paths, mounts [[OS (C:)]], net usable_space [77.2gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 11:03:27,966][INFO ][env                      ] [Jacob "Jake" Fury] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 11:03:30,546][INFO ][node                     ] [Jacob "Jake" Fury] initialized
+[2016-07-28 11:03:30,547][INFO ][node                     ] [Jacob "Jake" Fury] starting ...
+[2016-07-28 11:03:30,715][INFO ][transport                ] [Jacob "Jake" Fury] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 11:03:30,720][WARN ][bootstrap                ] [Jacob "Jake" Fury] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 11:03:34,808][INFO ][cluster.service          ] [Jacob "Jake" Fury] new_master {Jacob "Jake" Fury}{CpAgbYkxRJmi0d25E2UZvQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 11:03:34,894][INFO ][http                     ] [Jacob "Jake" Fury] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 11:03:34,894][INFO ][node                     ] [Jacob "Jake" Fury] started
+[2016-07-28 11:03:35,069][WARN ][gateway                  ] [Jacob "Jake" Fury] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:03:35,069][INFO ][gateway                  ] [Jacob "Jake" Fury] recovered [1] indices into cluster_state
+[2016-07-28 11:03:35,233][WARN ][gateway                  ] [Jacob "Jake" Fury] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:03:35,518][WARN ][gateway                  ] [Jacob "Jake" Fury] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:03:35,580][INFO ][cluster.routing.allocation] [Jacob "Jake" Fury] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-28 11:03:35,583][WARN ][gateway                  ] [Jacob "Jake" Fury] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:04:54,477][INFO ][node                     ] [Dreadknight] version[5.0.0-alpha3-SNAPSHOT], pid[4560], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 11:04:54,478][INFO ][node                     ] [Dreadknight] initializing ...
+[2016-07-28 11:04:54,487][INFO ][plugins                  ] [Dreadknight] modules [], plugins []
+[2016-07-28 11:04:54,523][INFO ][env                      ] [Dreadknight] using [1] data paths, mounts [[OS (C:)]], net usable_space [77.2gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 11:04:54,523][INFO ][env                      ] [Dreadknight] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 11:04:57,061][INFO ][node                     ] [Dreadknight] initialized
+[2016-07-28 11:04:57,061][INFO ][node                     ] [Dreadknight] starting ...
+[2016-07-28 11:04:57,234][INFO ][transport                ] [Dreadknight] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 11:04:57,242][WARN ][bootstrap                ] [Dreadknight] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 11:05:01,355][INFO ][cluster.service          ] [Dreadknight] new_master {Dreadknight}{KLCayc9oRdaw_7ae9Q8hxA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 11:05:01,429][INFO ][http                     ] [Dreadknight] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 11:05:01,429][INFO ][node                     ] [Dreadknight] started
+[2016-07-28 11:05:01,582][WARN ][gateway                  ] [Dreadknight] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:05:01,582][INFO ][gateway                  ] [Dreadknight] recovered [1] indices into cluster_state
+[2016-07-28 11:05:01,722][WARN ][gateway                  ] [Dreadknight] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:05:01,961][WARN ][gateway                  ] [Dreadknight] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:05:01,989][INFO ][cluster.routing.allocation] [Dreadknight] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-07-28 11:05:01,992][WARN ][gateway                  ] [Dreadknight] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:55:48,130][INFO ][node                     ] [Wendigo] version[5.0.0-alpha3-SNAPSHOT], pid[10096], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 11:55:48,131][INFO ][node                     ] [Wendigo] initializing ...
+[2016-07-28 11:55:48,145][INFO ][plugins                  ] [Wendigo] modules [], plugins []
+[2016-07-28 11:55:48,187][INFO ][env                      ] [Wendigo] using [1] data paths, mounts [[OS (C:)]], net usable_space [76.9gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 11:55:48,187][INFO ][env                      ] [Wendigo] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 11:55:55,646][INFO ][node                     ] [Wendigo] initialized
+[2016-07-28 11:55:55,646][INFO ][node                     ] [Wendigo] starting ...
+[2016-07-28 11:55:55,862][INFO ][transport                ] [Wendigo] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 11:55:55,893][WARN ][bootstrap                ] [Wendigo] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 11:56:00,159][INFO ][cluster.service          ] [Wendigo] new_master {Wendigo}{vXnQaN-KTQ2kG3juv5GV4g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 11:56:00,243][INFO ][http                     ] [Wendigo] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 11:56:00,243][INFO ][node                     ] [Wendigo] started
+[2016-07-28 11:56:00,722][WARN ][gateway                  ] [Wendigo] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:56:00,722][INFO ][gateway                  ] [Wendigo] recovered [1] indices into cluster_state
+[2016-07-28 11:56:00,968][WARN ][gateway                  ] [Wendigo] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:56:01,405][WARN ][gateway                  ] [Wendigo] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:56:01,518][INFO ][cluster.routing.allocation] [Wendigo] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-28 11:56:01,520][WARN ][gateway                  ] [Wendigo] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:59:04,967][INFO ][node                     ] [Swordsman] version[5.0.0-alpha3-SNAPSHOT], pid[11964], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 11:59:04,968][INFO ][node                     ] [Swordsman] initializing ...
+[2016-07-28 11:59:04,976][INFO ][plugins                  ] [Swordsman] modules [], plugins []
+[2016-07-28 11:59:05,014][INFO ][env                      ] [Swordsman] using [1] data paths, mounts [[OS (C:)]], net usable_space [76.9gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 11:59:05,014][INFO ][env                      ] [Swordsman] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 11:59:07,532][INFO ][node                     ] [Swordsman] initialized
+[2016-07-28 11:59:07,532][INFO ][node                     ] [Swordsman] starting ...
+[2016-07-28 11:59:07,701][INFO ][transport                ] [Swordsman] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 11:59:07,708][WARN ][bootstrap                ] [Swordsman] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 11:59:11,788][INFO ][cluster.service          ] [Swordsman] new_master {Swordsman}{tMP3Y4y_T3m8ihA5k5k9zA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 11:59:11,864][INFO ][http                     ] [Swordsman] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 11:59:11,864][INFO ][node                     ] [Swordsman] started
+[2016-07-28 11:59:12,026][WARN ][gateway                  ] [Swordsman] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:59:12,026][INFO ][gateway                  ] [Swordsman] recovered [1] indices into cluster_state
+[2016-07-28 11:59:12,176][WARN ][gateway                  ] [Swordsman] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:59:12,403][WARN ][gateway                  ] [Swordsman] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 11:59:12,454][INFO ][cluster.routing.allocation] [Swordsman] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-28 11:59:12,456][WARN ][gateway                  ] [Swordsman] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 12:36:20,766][INFO ][node                     ] [Mauler] version[5.0.0-alpha3-SNAPSHOT], pid[8636], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 12:36:20,767][INFO ][node                     ] [Mauler] initializing ...
+[2016-07-28 12:36:20,774][INFO ][plugins                  ] [Mauler] modules [], plugins []
+[2016-07-28 12:36:20,804][INFO ][env                      ] [Mauler] using [1] data paths, mounts [[OS (C:)]], net usable_space [77gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 12:36:20,804][INFO ][env                      ] [Mauler] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 12:36:23,351][INFO ][node                     ] [Mauler] initialized
+[2016-07-28 12:36:23,351][INFO ][node                     ] [Mauler] starting ...
+[2016-07-28 12:36:23,523][INFO ][transport                ] [Mauler] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 12:36:23,527][WARN ][bootstrap                ] [Mauler] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 12:36:27,635][INFO ][cluster.service          ] [Mauler] new_master {Mauler}{eV0Cuzb3QCCnXHE1TQIXpg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 12:36:27,712][INFO ][http                     ] [Mauler] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 12:36:27,712][INFO ][node                     ] [Mauler] started
+[2016-07-28 12:36:27,874][WARN ][gateway                  ] [Mauler] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 12:36:27,875][INFO ][gateway                  ] [Mauler] recovered [1] indices into cluster_state
+[2016-07-28 12:36:28,024][WARN ][gateway                  ] [Mauler] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 12:36:28,268][WARN ][gateway                  ] [Mauler] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 12:36:28,300][INFO ][cluster.routing.allocation] [Mauler] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-07-28 12:36:28,303][WARN ][gateway                  ] [Mauler] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 13:50:49,848][INFO ][node                     ] [Arizona Annie] version[5.0.0-alpha3-SNAPSHOT], pid[10792], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 13:50:49,849][INFO ][node                     ] [Arizona Annie] initializing ...
+[2016-07-28 13:50:49,857][INFO ][plugins                  ] [Arizona Annie] modules [], plugins []
+[2016-07-28 13:50:49,895][INFO ][env                      ] [Arizona Annie] using [1] data paths, mounts [[OS (C:)]], net usable_space [76.9gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 13:50:49,895][INFO ][env                      ] [Arizona Annie] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 13:50:52,373][INFO ][node                     ] [Arizona Annie] initialized
+[2016-07-28 13:50:52,373][INFO ][node                     ] [Arizona Annie] starting ...
+[2016-07-28 13:50:52,570][INFO ][transport                ] [Arizona Annie] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 13:50:52,578][WARN ][bootstrap                ] [Arizona Annie] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 13:50:56,684][INFO ][cluster.service          ] [Arizona Annie] new_master {Arizona Annie}{7IWf1ZUVQ5iSa16Nv4XydQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 13:50:56,758][INFO ][http                     ] [Arizona Annie] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 13:50:56,758][INFO ][node                     ] [Arizona Annie] started
+[2016-07-28 13:50:56,930][WARN ][gateway                  ] [Arizona Annie] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 13:50:56,931][INFO ][gateway                  ] [Arizona Annie] recovered [1] indices into cluster_state
+[2016-07-28 13:50:57,104][WARN ][gateway                  ] [Arizona Annie] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 13:50:57,368][WARN ][gateway                  ] [Arizona Annie] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 13:50:57,401][INFO ][cluster.routing.allocation] [Arizona Annie] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-28 13:50:57,404][WARN ][gateway                  ] [Arizona Annie] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 13:52:43,653][DEBUG][action.search            ] [Arizona Annie] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 20
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:664)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-28 13:52:43,662][WARN ][rest.suppressed          ] path: /products/_search, params: {scroll=1m, index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 20
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:664)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-28 13:53:59,109][DEBUG][action.search            ] [Arizona Annie] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 20
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:664)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-28 13:53:59,109][DEBUG][action.search            ] [Arizona Annie] failed to reduce search
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 20
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:664)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-28 13:53:59,110][WARN ][rest.suppressed          ] path: /products/_search, params: {scroll=1m, index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 20
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:664)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-28 13:53:59,111][WARN ][rest.suppressed          ] path: /products/_search, params: {scroll=1m, index=products}
+Failed to execute phase [fetch], [reduce] 
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.onFailure(SearchQueryThenFetchAsyncAction.java:156)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:438)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 20
+	at org.elasticsearch.search.controller.SearchPhaseController.merge(SearchPhaseController.java:664)
+	at org.elasticsearch.action.search.SearchQueryThenFetchAsyncAction$2.doRun(SearchQueryThenFetchAsyncAction.java:132)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:452)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+[2016-07-28 14:01:18,418][INFO ][node                     ] [Conquer Lord] version[5.0.0-alpha3-SNAPSHOT], pid[10196], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 14:01:18,419][INFO ][node                     ] [Conquer Lord] initializing ...
+[2016-07-28 14:01:18,425][INFO ][plugins                  ] [Conquer Lord] modules [], plugins []
+[2016-07-28 14:01:18,454][INFO ][env                      ] [Conquer Lord] using [1] data paths, mounts [[OS (C:)]], net usable_space [76.9gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 14:01:18,454][INFO ][env                      ] [Conquer Lord] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 14:01:20,945][INFO ][node                     ] [Conquer Lord] initialized
+[2016-07-28 14:01:20,945][INFO ][node                     ] [Conquer Lord] starting ...
+[2016-07-28 14:01:21,102][INFO ][transport                ] [Conquer Lord] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 14:01:21,106][WARN ][bootstrap                ] [Conquer Lord] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 14:01:25,198][INFO ][cluster.service          ] [Conquer Lord] new_master {Conquer Lord}{yMcxODkHQlWY9q4EJGK06g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 14:01:25,286][INFO ][http                     ] [Conquer Lord] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 14:01:25,286][INFO ][node                     ] [Conquer Lord] started
+[2016-07-28 14:01:25,467][WARN ][gateway                  ] [Conquer Lord] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 14:01:25,467][INFO ][gateway                  ] [Conquer Lord] recovered [1] indices into cluster_state
+[2016-07-28 14:01:25,636][WARN ][gateway                  ] [Conquer Lord] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 14:01:25,892][WARN ][gateway                  ] [Conquer Lord] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 14:01:25,932][INFO ][cluster.routing.allocation] [Conquer Lord] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-07-28 14:01:25,935][WARN ][gateway                  ] [Conquer Lord] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 14:20:37,026][INFO ][node                     ] [Vague] version[5.0.0-alpha3-SNAPSHOT], pid[12516], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 14:20:37,027][INFO ][node                     ] [Vague] initializing ...
+[2016-07-28 14:20:37,035][INFO ][plugins                  ] [Vague] modules [], plugins []
+[2016-07-28 14:20:37,072][INFO ][env                      ] [Vague] using [1] data paths, mounts [[OS (C:)]], net usable_space [76.9gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 14:20:37,072][INFO ][env                      ] [Vague] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 14:20:39,576][INFO ][node                     ] [Vague] initialized
+[2016-07-28 14:20:39,576][INFO ][node                     ] [Vague] starting ...
+[2016-07-28 14:20:39,743][INFO ][transport                ] [Vague] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 14:20:39,747][WARN ][bootstrap                ] [Vague] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 14:20:43,847][INFO ][cluster.service          ] [Vague] new_master {Vague}{YVDHohVHRwmwhgdQPo7lCw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 14:20:43,923][INFO ][http                     ] [Vague] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 14:20:43,923][INFO ][node                     ] [Vague] started
+[2016-07-28 14:20:44,111][WARN ][gateway                  ] [Vague] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 14:20:44,112][INFO ][gateway                  ] [Vague] recovered [1] indices into cluster_state
+[2016-07-28 14:20:44,272][WARN ][gateway                  ] [Vague] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 14:20:44,533][WARN ][gateway                  ] [Vague] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 14:20:44,571][INFO ][cluster.routing.allocation] [Vague] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-07-28 14:20:44,573][WARN ][gateway                  ] [Vague] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 14:25:42,495][INFO ][node                     ] [Fang] version[5.0.0-alpha3-SNAPSHOT], pid[4112], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 14:25:42,495][INFO ][node                     ] [Fang] initializing ...
+[2016-07-28 14:25:42,503][INFO ][plugins                  ] [Fang] modules [], plugins []
+[2016-07-28 14:25:42,534][INFO ][env                      ] [Fang] using [1] data paths, mounts [[OS (C:)]], net usable_space [76.9gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 14:25:42,534][INFO ][env                      ] [Fang] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 14:25:45,061][INFO ][node                     ] [Fang] initialized
+[2016-07-28 14:25:45,061][INFO ][node                     ] [Fang] starting ...
+[2016-07-28 14:25:45,225][INFO ][transport                ] [Fang] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 14:25:45,230][WARN ][bootstrap                ] [Fang] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 14:25:49,317][INFO ][cluster.service          ] [Fang] new_master {Fang}{HE59fScxQHeDvUEUZ-jSJw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 14:25:49,395][INFO ][http                     ] [Fang] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 14:25:49,395][INFO ][node                     ] [Fang] started
+[2016-07-28 14:25:49,582][WARN ][gateway                  ] [Fang] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 14:25:49,582][INFO ][gateway                  ] [Fang] recovered [1] indices into cluster_state
+[2016-07-28 14:25:49,741][WARN ][gateway                  ] [Fang] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 14:25:50,009][WARN ][gateway                  ] [Fang] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 14:25:50,068][INFO ][cluster.routing.allocation] [Fang] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-28 14:25:50,071][WARN ][gateway                  ] [Fang] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 15:10:36,654][INFO ][node                     ] [Shroud] version[5.0.0-alpha3-SNAPSHOT], pid[2972], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 15:10:36,654][INFO ][node                     ] [Shroud] initializing ...
+[2016-07-28 15:10:36,662][INFO ][plugins                  ] [Shroud] modules [], plugins []
+[2016-07-28 15:10:36,699][INFO ][env                      ] [Shroud] using [1] data paths, mounts [[OS (C:)]], net usable_space [77.2gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 15:10:36,699][INFO ][env                      ] [Shroud] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 15:10:39,332][INFO ][node                     ] [Shroud] initialized
+[2016-07-28 15:10:39,332][INFO ][node                     ] [Shroud] starting ...
+[2016-07-28 15:10:39,495][INFO ][transport                ] [Shroud] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2016-07-28 15:10:39,503][WARN ][bootstrap                ] [Shroud] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 15:10:43,578][INFO ][cluster.service          ] [Shroud] new_master {Shroud}{ozzAVZ_4RJKoP1jbNu_UfA}{127.0.0.1}{127.0.0.1:9301}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 15:10:43,669][INFO ][http                     ] [Shroud] publish_address {127.0.0.1:9201}, bound_addresses {127.0.0.1:9201}, {[::1]:9201}
+[2016-07-28 15:10:43,669][INFO ][node                     ] [Shroud] started
+[2016-07-28 15:10:43,842][WARN ][gateway                  ] [Shroud] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 15:10:43,842][INFO ][gateway                  ] [Shroud] recovered [1] indices into cluster_state
+[2016-07-28 15:10:43,986][WARN ][gateway                  ] [Shroud] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 15:10:44,217][WARN ][gateway                  ] [Shroud] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 15:10:44,251][INFO ][cluster.routing.allocation] [Shroud] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-07-28 15:10:44,254][WARN ][gateway                  ] [Shroud] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 15:46:36,067][INFO ][node                     ] [Greer Grant Nelson] version[5.0.0-alpha3-SNAPSHOT], pid[6868], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 15:46:36,067][INFO ][node                     ] [Greer Grant Nelson] initializing ...
+[2016-07-28 15:46:36,087][INFO ][plugins                  ] [Greer Grant Nelson] modules [], plugins []
+[2016-07-28 15:46:36,137][INFO ][env                      ] [Greer Grant Nelson] using [1] data paths, mounts [[OS (C:)]], net usable_space [76.3gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 15:46:36,137][INFO ][env                      ] [Greer Grant Nelson] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 15:46:46,248][INFO ][node                     ] [Greer Grant Nelson] initialized
+[2016-07-28 15:46:46,248][INFO ][node                     ] [Greer Grant Nelson] starting ...
+[2016-07-28 15:46:46,530][INFO ][transport                ] [Greer Grant Nelson] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 15:46:46,559][WARN ][bootstrap                ] [Greer Grant Nelson] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 15:46:50,827][INFO ][cluster.service          ] [Greer Grant Nelson] new_master {Greer Grant Nelson}{ybBznBXAQ4Ws8_O1yaBVcg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 15:46:50,916][INFO ][http                     ] [Greer Grant Nelson] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 15:46:50,916][INFO ][node                     ] [Greer Grant Nelson] started
+[2016-07-28 15:46:51,623][WARN ][gateway                  ] [Greer Grant Nelson] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 15:46:51,624][INFO ][gateway                  ] [Greer Grant Nelson] recovered [1] indices into cluster_state
+[2016-07-28 15:46:51,933][WARN ][gateway                  ] [Greer Grant Nelson] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 15:46:52,422][WARN ][gateway                  ] [Greer Grant Nelson] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 15:46:52,554][INFO ][cluster.routing.allocation] [Greer Grant Nelson] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-28 15:46:52,556][WARN ][gateway                  ] [Greer Grant Nelson] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 15:59:12,534][INFO ][node                     ] [Alexander Bont] version[5.0.0-alpha3-SNAPSHOT], pid[7036], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 15:59:12,534][INFO ][node                     ] [Alexander Bont] initializing ...
+[2016-07-28 15:59:12,542][INFO ][plugins                  ] [Alexander Bont] modules [], plugins []
+[2016-07-28 15:59:12,576][INFO ][env                      ] [Alexander Bont] using [1] data paths, mounts [[OS (C:)]], net usable_space [75.2gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 15:59:12,576][INFO ][env                      ] [Alexander Bont] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 15:59:15,784][INFO ][node                     ] [Alexander Bont] initialized
+[2016-07-28 15:59:15,785][INFO ][node                     ] [Alexander Bont] starting ...
+[2016-07-28 17:14:23,286][INFO ][node                     ] [Kang the Conqueror] version[5.0.0-alpha3-SNAPSHOT], pid[4460], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 17:14:23,287][INFO ][node                     ] [Kang the Conqueror] initializing ...
+[2016-07-28 17:14:23,294][INFO ][plugins                  ] [Kang the Conqueror] modules [], plugins []
+[2016-07-28 17:14:23,323][INFO ][env                      ] [Kang the Conqueror] using [1] data paths, mounts [[OS (C:)]], net usable_space [72.8gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 17:14:23,323][INFO ][env                      ] [Kang the Conqueror] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 17:14:25,684][INFO ][node                     ] [Kang the Conqueror] initialized
+[2016-07-28 17:14:25,684][INFO ][node                     ] [Kang the Conqueror] starting ...
+[2016-07-28 17:14:25,850][INFO ][transport                ] [Kang the Conqueror] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 17:14:25,854][WARN ][bootstrap                ] [Kang the Conqueror] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 17:14:29,902][INFO ][cluster.service          ] [Kang the Conqueror] new_master {Kang the Conqueror}{LaBa8_-cQlGdvSjxa1yICQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 17:14:29,988][INFO ][http                     ] [Kang the Conqueror] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 17:14:29,988][INFO ][node                     ] [Kang the Conqueror] started
+[2016-07-28 17:14:30,274][WARN ][gateway                  ] [Kang the Conqueror] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:14:30,275][INFO ][gateway                  ] [Kang the Conqueror] recovered [1] indices into cluster_state
+[2016-07-28 17:14:30,430][WARN ][gateway                  ] [Kang the Conqueror] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:14:30,570][WARN ][gateway                  ] [Kang the Conqueror] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:14:30,974][WARN ][gateway                  ] [Kang the Conqueror] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:14:31,037][INFO ][cluster.routing.allocation] [Kang the Conqueror] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-28 17:14:31,041][WARN ][gateway                  ] [Kang the Conqueror] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:41:35,045][INFO ][node                     ] [Marduk Kurios] version[5.0.0-alpha3-SNAPSHOT], pid[8984], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 17:41:35,046][INFO ][node                     ] [Marduk Kurios] initializing ...
+[2016-07-28 17:41:35,053][INFO ][plugins                  ] [Marduk Kurios] modules [], plugins []
+[2016-07-28 17:41:35,083][INFO ][env                      ] [Marduk Kurios] using [1] data paths, mounts [[OS (C:)]], net usable_space [71.7gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 17:41:35,083][INFO ][env                      ] [Marduk Kurios] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 17:41:37,561][INFO ][node                     ] [Marduk Kurios] initialized
+[2016-07-28 17:41:37,561][INFO ][node                     ] [Marduk Kurios] starting ...
+[2016-07-28 17:41:37,718][INFO ][transport                ] [Marduk Kurios] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 17:41:37,725][WARN ][bootstrap                ] [Marduk Kurios] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 17:41:41,812][INFO ][cluster.service          ] [Marduk Kurios] new_master {Marduk Kurios}{fLdvcTegRKKivCEp-nAtxQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 17:41:41,902][INFO ][http                     ] [Marduk Kurios] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 17:41:41,902][INFO ][node                     ] [Marduk Kurios] started
+[2016-07-28 17:41:42,055][WARN ][gateway                  ] [Marduk Kurios] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:41:42,056][INFO ][gateway                  ] [Marduk Kurios] recovered [1] indices into cluster_state
+[2016-07-28 17:41:42,200][WARN ][gateway                  ] [Marduk Kurios] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:41:42,441][WARN ][gateway                  ] [Marduk Kurios] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 17:41:42,485][INFO ][cluster.routing.allocation] [Marduk Kurios] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-07-28 17:41:42,487][WARN ][gateway                  ] [Marduk Kurios] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 18:18:26,887][INFO ][node                     ] [Living Laser] version[5.0.0-alpha3-SNAPSHOT], pid[5472], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-07-28 18:18:26,888][INFO ][node                     ] [Living Laser] initializing ...
+[2016-07-28 18:18:26,896][INFO ][plugins                  ] [Living Laser] modules [], plugins []
+[2016-07-28 18:18:26,934][INFO ][env                      ] [Living Laser] using [1] data paths, mounts [[OS (C:)]], net usable_space [71.7gb], net total_space [226.2gb], spins? [unknown], types [NTFS]
+[2016-07-28 18:18:26,934][INFO ][env                      ] [Living Laser] heap size [3.9gb], compressed ordinary object pointers [true]
+[2016-07-28 18:18:29,481][INFO ][node                     ] [Living Laser] initialized
+[2016-07-28 18:18:29,481][INFO ][node                     ] [Living Laser] starting ...
+[2016-07-28 18:18:29,651][INFO ][transport                ] [Living Laser] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-07-28 18:18:29,658][WARN ][bootstrap                ] [Living Laser] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-07-28 18:18:33,757][INFO ][cluster.service          ] [Living Laser] new_master {Living Laser}{aD7LYMdVS9q374JqOi-0Jw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-07-28 18:18:33,842][INFO ][http                     ] [Living Laser] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-07-28 18:18:33,842][INFO ][node                     ] [Living Laser] started
+[2016-07-28 18:18:34,005][WARN ][gateway                  ] [Living Laser] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 18:18:34,005][INFO ][gateway                  ] [Living Laser] recovered [1] indices into cluster_state
+[2016-07-28 18:18:34,147][WARN ][gateway                  ] [Living Laser] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 18:18:34,377][WARN ][gateway                  ] [Living Laser] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
+[2016-07-28 18:18:34,430][INFO ][cluster.routing.allocation] [Living Laser] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-07-28 18:18:34,432][WARN ][gateway                  ] [Living Laser] [[products/xQepTdIXT8OjWCXFOQPOmw]] can not be imported as a dangling index, as index with same name already exists in cluster metadata
