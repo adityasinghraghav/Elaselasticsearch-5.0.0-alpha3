@@ -19,6 +19,8 @@
 
 package org.elasticsearch.rest.action.odoscopesearch;
 
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import org.elasticsearch.action.odoscopesearch.*;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
@@ -28,6 +30,7 @@ import org.elasticsearch.action.support.QuerySourceBuilder;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.common.ParseFieldMatcher;
 import org.elasticsearch.common.Strings;
+import org.elasticsearch.common.bytes.BytesArray;
 import org.elasticsearch.common.bytes.BytesReference;
 import org.elasticsearch.common.inject.Inject;
 import org.elasticsearch.common.settings.Settings;
@@ -108,6 +111,13 @@ public class RestOdoscopeSearchAction extends BaseRestHandler {
         {
             logger.info("either POST url not specified or sort enabled -> executing normal search");
             RestSearchAction.parseSearchRequest(searchRequest, request, parseFieldMatcher, null);
+
+            String searchBody = searchRequest.source().toUtf8();
+            JsonObject jsonObject = (new JsonParser()).parse(searchBody).getAsJsonObject();
+            jsonObject.remove("url");
+            BytesReference newSource = new BytesArray(jsonObject.toString());
+            searchRequest.source(newSource);
+
             client.search(searchRequest, new RestStatusToXContentListener<SearchResponse>(channel));
         }
         else
