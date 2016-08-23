@@ -19,8 +19,6 @@
 
 package org.elasticsearch.action.search;
 
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import org.elasticsearch.action.ActionListener;
 import org.elasticsearch.action.odoscopesearch.OdoscopeSearchAction;
 import org.elasticsearch.action.odoscopesearch.OdoscopeSearchRequest;
@@ -29,8 +27,6 @@ import org.elasticsearch.action.support.HandledTransportAction;
 import org.elasticsearch.cluster.ClusterService;
 import org.elasticsearch.cluster.ClusterState;
 import org.elasticsearch.cluster.metadata.IndexNameExpressionResolver;
-import org.elasticsearch.common.bytes.BytesArray;
-import org.elasticsearch.common.bytes.BytesReference;
 import org.elasticsearch.common.inject.Inject;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.index.IndexNotFoundException;
@@ -49,7 +45,7 @@ import static org.elasticsearch.action.search.SearchType.QUERY_AND_FETCH;
 import static org.elasticsearch.action.search.SearchType.SCAN;
 
 /**
- * Copied from transport search action
+ * Delete-By-Query implementation that uses efficient scrolling and bulks deletions to delete large set of documents.
  */
 public class TransportOdoscopeSearchAction extends HandledTransportAction<OdoscopeSearchRequest, SearchResponse> {
 
@@ -92,11 +88,7 @@ public class TransportOdoscopeSearchAction extends HandledTransportAction<Odosco
         }
         }
 
-        String searchBody = searchRequest.source().toUtf8();
-        JsonObject jsonObject = (new JsonParser()).parse(searchBody).getAsJsonObject();
-        jsonObject.remove("url");
-        BytesReference newSource = new BytesArray(jsonObject.toString());
-        searchRequest.source(newSource);
+
 
         OdoscopeAbstractAsyncAction searchAsyncAction = new OdoscopeSearchQueryThenFetchAsyncAction(logger, searchService, clusterService, indexNameExpressionResolver, searchPhaseController, threadPool, searchRequest, listener);
 

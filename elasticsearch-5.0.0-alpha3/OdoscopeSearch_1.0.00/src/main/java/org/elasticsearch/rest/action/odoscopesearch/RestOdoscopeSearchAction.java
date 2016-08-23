@@ -19,8 +19,6 @@
 
 package org.elasticsearch.rest.action.odoscopesearch;
 
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import org.elasticsearch.action.odoscopesearch.*;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
@@ -30,7 +28,6 @@ import org.elasticsearch.action.support.QuerySourceBuilder;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.common.ParseFieldMatcher;
 import org.elasticsearch.common.Strings;
-import org.elasticsearch.common.bytes.BytesArray;
 import org.elasticsearch.common.bytes.BytesReference;
 import org.elasticsearch.common.inject.Inject;
 import org.elasticsearch.common.settings.Settings;
@@ -58,6 +55,8 @@ import static org.elasticsearch.rest.RestRequest.Method.POST;
 import static org.elasticsearch.search.suggest.SuggestBuilders.termSuggestion;
 
 public class RestOdoscopeSearchAction extends BaseRestHandler {
+
+    private static boolean sort = false;
 
 
 
@@ -90,41 +89,39 @@ public class RestOdoscopeSearchAction extends BaseRestHandler {
     public void handleRequest(final RestRequest request, final RestChannel channel, final Client client) {
 
         boolean url  = false;
-        boolean sort = false;
-
 
         SearchRequest searchRequest = new SearchRequest();
-        SearchRequestParser requestParser = new SearchRequestParser();
+        SearchRequestParser p = new SearchRequestParser();
+        try
+        {
+            p.parseSource(request.content());
+        } catch (OdoscopeSearchParseException e) {}
 
-        requestParser.sourceParser(request.content());
+        SavedValues.setSize(p.getSize());
+        SavedValues.setFrom(p.getFrom());
+        sort = p.sort;
 
-        url = requestParser.HasUrl();
-        sort = requestParser.getsort();
-
-
-        if(request.hasParam("sort") || sort)
+        if(request.hasParam("url"))
+        {
+            String urlstring = request.param("url");
+            SavedValues.setUrl(urlstring);
+            url = true;
+        }
+        if(request.hasParam("sort"))
         {
             sort = true;
         }
+
 
         if(sort || !url)
         {
             logger.info("either POST url not specified or sort enabled -> executing normal search");
             RestSearchAction.parseSearchRequest(searchRequest, request, parseFieldMatcher, null);
-
-            String searchBody = searchRequest.source().toUtf8();
-            JsonObject jsonObject = (new JsonParser()).parse(searchBody).getAsJsonObject();
-            jsonObject.remove("url");
-            BytesReference newSource = new BytesArray(jsonObject.toString());
-            searchRequest.source(newSource);
-
             client.search(searchRequest, new RestStatusToXContentListener<SearchResponse>(channel));
+
         }
         else
         {
-            SavedValues.setSize(requestParser.getSize());
-            SavedValues.setFrom(requestParser.getFrom());
-            SavedValues.setUrl(requestParser.getUrl());
             RestOdoscopeSearchAction.parseSearchRequest(searchRequest, request, parseFieldMatcher, null);
             OdoscopeSearchRequestBuilder builder = new OdoscopeSearchRequestBuilder(client);
             OdoscopeSearchRequest simple = builder.request();

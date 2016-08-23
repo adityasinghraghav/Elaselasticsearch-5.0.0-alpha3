@@ -19,19 +19,20 @@
 
 package org.elasticsearch.search.controller;
 
-import org.elasticsearch.plugin.odoscopesearch.SavedValues;
-import org.elasticsearch.search.internal.InternalSearchHit;
-import org.elasticsearch.search.internal.InternalSearchHits;
+        import com.google.gson.JsonArray;
+        import com.google.gson.JsonObject;
+        import com.google.gson.JsonParser;
+        import org.elasticsearch.plugin.odoscopesearch.SavedValues;
+        import org.elasticsearch.search.internal.InternalSearchHit;
+        import org.elasticsearch.search.internal.InternalSearchHits;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.net.URLConnection;
-import java.nio.charset.Charset;
-import java.util.logging.Logger;
+        import java.io.BufferedReader;
+        import java.io.InputStreamReader;
+        import java.io.OutputStream;
+        import java.net.HttpURLConnection;
+        import java.net.URL;
+        import java.nio.charset.Charset;
+
 
 public class OdoscopeSearchPhaseController {
 
@@ -40,11 +41,9 @@ public class OdoscopeSearchPhaseController {
     {
 
         long size = Math.min(SavedValues.getSize(), InHits.getHits().length);
-        String skus[] = new String[(int)size];
 
+        String skus[] = new String[(int)size]; //debug case
 
-
-        String query = ("{\"from\":").concat((String.valueOf(SavedValues.getFrom()).concat(((",\"size\":").concat((String.valueOf(SavedValues.getSize()).concat(",\"results\":[")))))));
         String postData = "pids=";
 
 
@@ -60,14 +59,13 @@ public class OdoscopeSearchPhaseController {
             return new InternalSearchHits(new InternalSearchHit[0], totalHits, InHits.maxScore());
         }
 
-        StringBuilder ss = new StringBuilder();
+
         StringBuilder sss = new StringBuilder();
         InternalSearchHit[] finalhits = InHits.internalHits();
 
         for (InternalSearchHit hit : finalhits)
         {
             counter++;
-            //ss = ss.append(("{\"SKU\":").concat((hit.getId()).concat((",\"score\":").concat((String.valueOf(hit.getScore()).concat("},"))))));
             sss = sss.append((hit.getId()).concat(","));
             if (counter < stop && counter >= start)
             {
@@ -76,15 +74,8 @@ public class OdoscopeSearchPhaseController {
             }
         }
 
-//        query = query.concat(ss.toString());
-//        if (query != null && query.length() > 0 && query.charAt(query.length() - 1) == ',')
-//        {
-//            query = query.substring(0, query.length() - 1);
-//        }
-//        query = query.concat("]}");
 
-
-        postData = postData.concat(ss.toString());
+        postData = postData.concat(sss.toString());
         if (postData != null && postData.length() > 0 && postData.charAt(postData.length() - 1) == ',')
         {
             postData = postData.substring(0, postData.length() - 1);
@@ -92,120 +83,28 @@ public class OdoscopeSearchPhaseController {
         postData = postData.concat(("&limit=".concat(String.valueOf(SavedValues.getSize()))).concat("&offset=".concat(String.valueOf(SavedValues.getFrom()))));
 
 
-        String reponse2= echoCuties(SavedValues.getUrl(), postData);
+        String pp = "pids=850214,190649,425115&limit=3&offset=0";
+        String reponse2 = callOdoscope(SavedValues.getUrl(), pp);
+
+        JsonObject jsonObject = (new JsonParser()).parse(reponse2).getAsJsonObject();
+        JsonArray pids = jsonObject.getAsJsonArray("pids");
 
 
 
-        //String response1= callURL("http://odoscope.cloud/praxisdienst.de/decisions?maxItems=20&token=XfRqxAgR7XwGW3qzmj2Mxw&categoryID=2dd41e75a881635aa52be72e7f6d2eeb&prodId=421109&hostname=praxisdienst.de");
-        String response = "{\n" +
-            "  \"variants\": [\n" +
-            "   {\n" +
-            "    \"variantID\": \"311201\",\n" +
-            "    \"score\": 18879\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"311101\",\n" +
-            "    \"score\": 5275\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"421100\",\n" +
-            "    \"score\": 5059\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"131185\",\n" +
-            "    \"score\": 4344\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"602535\",\n" +
-            "    \"score\": 4187\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"425115\",\n" +
-            "    \"score\": 3992\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"602272\",\n" +
-            "    \"score\": 3969\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"602221\",\n" +
-            "    \"score\": 3840\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"602540\",\n" +
-            "    \"score\": 3823\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"350000\",\n" +
-            "    \"score\": 3771\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"360250\",\n" +
-            "    \"score\": 3439\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"312101\",\n" +
-            "    \"score\": 3359\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"130400\",\n" +
-            "    \"score\": 3332\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"603034\",\n" +
-            "    \"score\": 3294\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"430105blau\",\n" +
-            "    \"score\": 3286\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"425100\",\n" +
-            "    \"score\": 3092\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"126022\",\n" +
-            "    \"score\": 3006\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"318401\",\n" +
-            "    \"score\": 2782\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"314101\",\n" +
-            "    \"score\": 2570\n" +
-            "   },\n" +
-            "   {\n" +
-            "    \"variantID\": \"350600\",\n" +
-            "    \"score\": 2483\n" +
-            "   }\n" +
-            "  ],\n" +
-            "  \"responseStatus\": {\n" +
-            "   \"responseCode\": 200,\n" +
-            "   \"responseMessage\": \"\"\n" +
-            "  }\n" +
-            " }";
+        int[] pid = new int[pids.size()];
 
-
-        String delims = "[,.?/|\n}{\" /:\" ]+";
-        String[] tokens = response.split(delims);
-
-        String skids1[] = new String[20] ; //Saved.value.getS();
-        String skore1[] = new String[20];
-
-        int k;
-        for (k = 0; k < tokens.length - 1; k++) {
-            if (tokens[k].equals("variantID"))
-                break;
+        for(int i = 0; i < pids.size(); i++)
+        {
+            pid[i]= pids.get(i).getAsInt();
         }
 
-        int ct = 0;
 
-        while (!(tokens[k].equals("]"))) {
-            skids1[ct] = tokens[k + 1];
-            skore1[ct] = tokens[k + 3];
-            ct++;
-            k = k + 4;
+
+
+        int[] skore1 = new int[SavedValues.getSize()];
+        for(int j = 0; j<SavedValues.getSize(); j++)
+        {
+            skore1[j] = j + 100;
         }
 
 
@@ -222,62 +121,19 @@ public class OdoscopeSearchPhaseController {
 
             if ((finalhits[itr].getId()).equals(skus[count])) {
 
-                finalhits[itr].score(Float.valueOf(skore1[count]));
+                finalhits[itr].score(skore1[count]);
                 finalfinalhits[count] = finalhits[itr];
                 count++;
                 itr = finalhits.length ;
             }
         }
 
-        InternalSearchHits searchHits = new InternalSearchHits(finalfinalhits, totalHits, InHits.maxScore());
 
-        return searchHits;
+        return new InternalSearchHits(finalfinalhits, totalHits, InHits.maxScore());
 
     }
 
-    private static String callURL(String myURL) {
-
-        StringBuilder sb = new StringBuilder();
-        URLConnection urlConn = null;
-        InputStreamReader in = null;
-
-        try {
-
-            URL url = new URL(myURL);
-
-            urlConn = url.openConnection();
-            //urlConn.addRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1");
-//            System.out.println(urlConn.getHeaderFields());
-
-
-            if (urlConn != null)
-                urlConn.setReadTimeout(60 * 1000);
-
-            if (urlConn != null && urlConn.getInputStream() != null)
-            {
-
-                in = new InputStreamReader(urlConn.getInputStream(),
-                    Charset.defaultCharset());
-
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(urlConn.getInputStream(),
-                    Charset.defaultCharset()));
-
-                if (bufferedReader != null) {
-                    int cp;
-                    while ((cp = bufferedReader.read()) != -1) {
-                        sb.append((char) cp);
-                    }
-                    bufferedReader.close();
-                }
-            }
-            in.close();
-        } catch (Exception e) {
-            throw new RuntimeException("Exception while calling URL:"+ myURL, e);
-        }
-        return sb.toString();
-    }
-
-    private String echoCuties(String requestURL, String postData) {
+    private String callOdoscope(String requestURL, String postData) {
 
         StringBuilder responseSB = new StringBuilder();
 

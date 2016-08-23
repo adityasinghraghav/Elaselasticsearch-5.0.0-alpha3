@@ -19,8 +19,6 @@
 
 package org.elasticsearch.plugin.odoscopesearch;
 
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import org.elasticsearch.common.bytes.BytesReference;
 import org.elasticsearch.common.inject.Inject;
 import org.elasticsearch.common.xcontent.XContentFactory;
@@ -30,11 +28,9 @@ import org.elasticsearch.common.xcontent.XContentParser;
 
 public class SearchRequestParser {
 
-    private int from;
-    private int size;
-    private boolean sort;
-    private boolean hasUrl;
-    private String url;
+    public int from;
+    public int size;
+    public boolean sort = false;
 
 
     @Inject
@@ -42,9 +38,6 @@ public class SearchRequestParser {
     {
         from = 0;
         size = 10;
-        sort = false;
-        hasUrl  = false;
-        url = "null";
     }
 
     public void parseSource(BytesReference source) throws OdoscopeSearchParseException {
@@ -124,37 +117,11 @@ public class SearchRequestParser {
         }
     }
 
-    public void sourceParser(BytesReference source)
-    {
-
-        if(source !=  null && source.length()!=0) {
-            String sourceString = source.toUtf8();
-            JsonObject jsonObject = (new JsonParser()).parse(sourceString).getAsJsonObject();
-
-            if (jsonObject.getAsJsonPrimitive("from") != null) {
-                from = Integer.parseInt(jsonObject.getAsJsonPrimitive("from").toString());
-            }
-            if (jsonObject.getAsJsonPrimitive("size") != null) {
-                size = Integer.parseInt(jsonObject.getAsJsonPrimitive("size").toString());
-            }
-            if (jsonObject.getAsJsonPrimitive("url") != null) {
-                url = jsonObject.get("url").getAsString();
-                hasUrl = true;
-            }
-            if (jsonObject.get("sort") != null) {
-                sort = true;
-            }
-        }
-
-    }
-
     public int getSize() {
         return size;
     }
     public int getFrom() {
         return from;
     }
-    public String getUrl() { return url; }
-    public boolean getsort() {return sort;}
-    public boolean HasUrl() { return hasUrl; }
+    public boolean getsort(){return sort;}
 }
